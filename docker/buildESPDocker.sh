@@ -1,0 +1,7 @@
+#!/bin/bash
+IMAGE_BASE=z80
+ESPCONTAINERVERSION=`cat espcontainerver`
+
+echo $ESPCONTAINERVERSION
+
+docker build -t $IMAGE_BASE:$ESPCONTAINERVERSION .
