@@ -1,0 +1,11 @@
+64K total addressable memory on Z80
+
+If we want 16K ROM: 2^13
+	- If bit 14 or 15 bit is set: route memory address to SRAM chip
+	- Bit 14 set: 
+		- route to SRAM chip
+		bit 15 set: turn on bit 14 on SRAM chip
+If we want 32K ROM: 2^14
+	- If bit 15 is set: route memory address to SRAM
+
+
