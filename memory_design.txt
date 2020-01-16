@@ -8,4 +8,4 @@ If we want 16K ROM: 2^13
 If we want 32K ROM: 2^14
 	- If bit 15 is set: route memory address to SRAM
 
-
+if SRAM chips have a read/write enable maybe able to use it to enable / disable sram 
