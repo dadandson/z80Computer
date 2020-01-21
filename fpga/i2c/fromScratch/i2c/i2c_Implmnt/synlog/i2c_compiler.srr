@@ -1,0 +1,58 @@
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v" (library work)
+@I::"C:\lscc\iCEcube2.2017.08\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\iCEcube2.2017.08\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2017.08\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2017.08\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"E:\MyStuff\dev\dadandson\z80\fpga\i2c\fromScratch\i2c\MyI2C.v" (library work)
+Verilog syntax check successful!
+File E:\MyStuff\dev\dadandson\z80\fpga\i2c\fromScratch\i2c\MyI2C.v changed - recompiling
+Selecting top level module MyI2C
+@N: CG364 :"C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v":3901:7:3901:12|Synthesizing module SB_I2C in library work.
+
+@N: CG364 :"E:\MyStuff\dev\dadandson\z80\fpga\i2c\fromScratch\i2c\MyI2C.v":74:7:74:11|Synthesizing module MyI2C in library work.
+
+@W: CG296 :"E:\MyStuff\dev\dadandson\z80\fpga\i2c\fromScratch\i2c\MyI2C.v":244:11:244:19|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"E:\MyStuff\dev\dadandson\z80\fpga\i2c\fromScratch\i2c\MyI2C.v":249:25:249:37|Referenced variable hard10_SBDATo is not in sensitivity list.
+@W: CG290 :"E:\MyStuff\dev\dadandson\z80\fpga\i2c\fromScratch\i2c\MyI2C.v":247:25:247:37|Referenced variable hard11_SBDATo is not in sensitivity list.
+@W: CG290 :"E:\MyStuff\dev\dadandson\z80\fpga\i2c\fromScratch\i2c\MyI2C.v":253:25:253:37|Referenced variable hard00_SBDATo is not in sensitivity list.
+@W: CG290 :"E:\MyStuff\dev\dadandson\z80\fpga\i2c\fromScratch\i2c\MyI2C.v":251:25:251:37|Referenced variable hard01_SBDATo is not in sensitivity list.
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 72MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Jan 19 14:53:12 2020
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"E:\MyStuff\dev\dadandson\z80\fpga\i2c\fromScratch\i2c\MyI2C.v":74:7:74:11|Selected library: work cell: MyI2C view verilog as top level
+@N: NF107 :"E:\MyStuff\dev\dadandson\z80\fpga\i2c\fromScratch\i2c\MyI2C.v":74:7:74:11|Selected library: work cell: MyI2C view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Jan 19 14:53:13 2020
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 4MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Jan 19 14:53:13 2020
+
+###########################################################]

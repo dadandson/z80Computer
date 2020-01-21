@@ -1,0 +1,31 @@
+Active-HDL 10.3.3558.6081  2020-01-19 14:57:03
+
+Elaboration top modules:
+Verilog Module                MyI2C
+
+
+--------------------------------------------------------------------------------------------------
+Verilog Module          | Library | Info | Compiler Version          | Compilation Options
+--------------------------------------------------------------------------------------------------
+MyI2C                   | i2c-sim |      | 10.3.3558.6081  (Windows) | -O2 -sv2k12
+SB_I2C                  | ovi_ice |      | 10.3.3558.6081  (Windows) | -v2k5 -vendor lattice
+SB_I2C_CORE             | ovi_ice |      | 10.3.3558.6081  (Windows) | -dbg -v2k5 -vendor lattice
+i2c_ip                  | ovi_ice |      | 10.3.3558.6081  (Windows) | -dbg -v2k5 -vendor lattice
+i2c_sci                 | ovi_ice |      | 10.3.3558.6081  (Windows) | -dbg -v2k5 -vendor lattice
+i2c_port                | ovi_ice |      | 10.3.3558.6081  (Windows) | -dbg -v2k5 -vendor lattice
+sci_int_reg             | ovi_ice |      | 10.3.3558.6081  (Windows) | -dbg -v2k5 -vendor lattice
+SYNCP_STD               | ovi_ice |      | 10.3.3558.6081  (Windows) | -dbg -v2k5 -vendor lattice
+--------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------
+Library                 | Comment
+--------------------------------------------------------------------------------------------------
+i2c-sim                 | None
+ovi_ice                 | LATTICE iCEcube2 2016.12, SB ICE VERILOG LIBRARY
+--------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 -L ovi_ice -L ice +access +r MyI2C
+
+
+The performance of simulation is reduced. Version Lattice Edition

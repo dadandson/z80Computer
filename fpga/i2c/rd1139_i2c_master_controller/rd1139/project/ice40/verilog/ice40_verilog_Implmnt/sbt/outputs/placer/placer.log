@@ -1,0 +1,80 @@
+* ******************************************************************************
+
+* iCEcube Placer
+
+* Version:            2017.08.27940
+
+* Build Date:         Sep 11 2017 17:12:22
+
+* File Generated:     Jan 19 2020 14:12:51
+
+* Purpose:            
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Executing : C:\lscc\iCEcube2.2017.08\sbt_backend\bin\win32\opt\sbtplacer.exe --des-lib E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\netlist\oadb-i2c_master_controller_top --outdir E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\outputs\placer --device-file C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ICE40T04.dev --package SWG36 --deviceMarketName iCE5LP4K --sdc-file E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\Temp/sbt_temp.sdc --lib-file C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ice40TH4K.lib --effort_level std --out-sdc-file E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\outputs\placer\i2c_master_controller_top_pl.sdc
+I2004: Option and Settings Summary
+=============================================================
+Device file          - C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ICE40T04.dev
+Package              - SWG36
+Design database      - E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\netlist\oadb-i2c_master_controller_top
+SDC file             - E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\Temp/sbt_temp.sdc
+Output directory     - E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\outputs\placer
+Timing library       - C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ice40TH4K.lib
+Effort level         - std
+
+I2050: Starting reading inputs for placer
+=============================================================
+I2100: Reading design library: E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\netlist\oadb-i2c_master_controller_top/BFPGA_DESIGN_ep
+I2065: Reading device file : C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ICE40T04.dev
+I2051: Reading of inputs for placer completed successfully
+
+I2053: Starting placement of the design
+=============================================================
+
+Input Design Statistics
+    Number of LUTs      	:	261
+    Number of DFFs      	:	209
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	53
+    Number of RAMs      	:	0
+    Number of ROMs      	:	0
+    Number of IOs       	:	65
+    Number of GBIOs     	:	1
+    Number of GBs       	:	0
+    Number of WarmBoot  	:	0
+    Number of PLLs      	:	0
+    Number of I2Cs      	:	0
+    Number of SPIs      	:	0
+    Number of DSPs     	:	0
+    Number of SBIOODs     	:	0
+    Number of LEDDRVs     	:	0
+    Number of RGBDRVs     	:	0
+    Number of LEDDIPs     	:	0
+    Number of IRDRVs     	:	0
+    Number of LFOSCs     	:	0
+    Number of HFOSCs     	:	0
+
+
+Phase 1
+I2077: Start design legalization
+I3013: Unable to fit the design into the selected device/package
+DEVICE IO Count:
+ (a) Regular IOs (SB_IO/SB_GB_IO) on the chip  - 18
+ (b) SPI IOs on the chip                       - 4
+ (c) Open Drain IOs (SB_IO_OD) on the chip     - 4
+                                               ------
+ Total IO Capacity of Chip (a + b + c)         - 26
+                                               ------
+DESIGN IO Count:
+ (a) Regular IOs(auto placement)            - 66
+ (b) SPI Constrained IOs in the design      - 0
+ (c) Open Drain IOs                         - 0
+                                            ------
+ Total IO count of the design (a + b + c)   - 66
+                                            ------
+E2081: Feasibility check for IO Placement failed
+E2080: Design legalizer failed: Design can not be legalized
+E2055: Error while doing placement of the design

@@ -1,0 +1,8 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v":3901:7:3901:12|Synthesizing module SB_I2C in library work.
+@N: CG364 :"E:\MyStuff\dev\dadandson\z80\fpga\i2c\fromScratch\i2c\MyI2C.v":74:7:74:11|Synthesizing module MyI2C in library work.
+@N|Running in 64-bit mode
+@N: NF107 :"E:\MyStuff\dev\dadandson\z80\fpga\i2c\fromScratch\i2c\MyI2C.v":74:7:74:11|Selected library: work cell: MyI2C view verilog as top level
+@N: NF107 :"E:\MyStuff\dev\dadandson\z80\fpga\i2c\fromScratch\i2c\MyI2C.v":74:7:74:11|Selected library: work cell: MyI2C view verilog as top level
+

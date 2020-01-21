@@ -1,0 +1,7 @@
+[Files List]
+C:\lscc\iCEcube2.2017.08\Aldec\Active-HDL\vlib\std/src/standard.vhd=S
+C:\lscc\iCEcube2.2017.08\Aldec\Active-HDL\vlib/verilog/BoltSimModels/I2CFIFO/i2cfifo_ip_unified.v=S
+C:\lscc\iCEcube2.2017.08\Aldec\Active-HDL\vlib/verilog/LightningSimModels/SB_I2C/sb_i2c_ip_unified.v=S
+C:\lscc\iCEcube2.2017.08\Aldec\Active-HDL\vlib/verilog/LightningSimModels/SB_I2C/SB_I2C_CORE.v=S
+C:\lscc\iCEcube2.2017.08\Aldec\Active-HDL\vlib/verilog/sb_ice_syn.v=S
+E:\MyStuff\dev\dadandson\z80\fpga\i2c\fromScratch\i2c/MyI2C.v=S

@@ -1,0 +1,33 @@
+# ##############################################################################
+
+# iCEcube PCF
+
+# Version:            2017.08.27940
+
+# File Generated:     Jan 19 2020 14:12:44
+
+# Family & Device:    iCE5LP4K
+
+# Package:            SWG36
+
+# ##############################################################################
+
+###MergeFF List 8
+set_io_ff o_receive_data[0] -out ON
+set_io_ff o_receive_data[1] -out ON
+set_io_ff o_receive_data[2] -out ON
+set_io_ff o_receive_data[3] -out ON
+set_io_ff o_receive_data[4] -out ON
+set_io_ff o_receive_data[5] -out ON
+set_io_ff o_receive_data[6] -out ON
+set_io_ff o_receive_data[7] -out ON
+
+###IOSet List 7
+set_io i_transmit_data[1] E3 -io_std SB_LVCMOS
+set_io i_transmit_data[3] F3 -io_std SB_LVCMOS
+set_io i_transmit_data[5] D6 -io_std SB_LVCMOS
+set_io i_transmit_data[0] F6 -io_std SB_LVCMOS
+set_io i_transmit_data[2] F5 -io_std SB_LVCMOS
+set_io i_transmit_data[4] D5 -io_std SB_LVCMOS
+set_io i_transmit_data[6] E5 -io_std SB_LVCMOS
+

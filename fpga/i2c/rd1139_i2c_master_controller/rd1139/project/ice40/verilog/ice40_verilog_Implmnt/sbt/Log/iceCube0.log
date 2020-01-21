@@ -1,0 +1,1119 @@
+1:06:28 PM
+C:\lscc\iCEcube2.2017.08\LSE\bin\nt\synthesis.exe -f "ice40_verilog_lse.prj"
+starting Synthesisrunning SynthesisCopyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Sun Jan 19 13:29:11 2020
+
+
+Command Line:  C:\lscc\iCEcube2.2017.08\LSE\bin\nt\synthesis.exe -f ice40_verilog_lse.prj 
+
+INFO - synthesis: Lattice Synthesis Engine Launched.
+Synthesis options:
+The -a option is SBTiCE5LP.
+The -t option is SWG36.
+The -d option is iCE5LP4K.
+                                                          
+
+##########################################################
+
+### Lattice Family : SBTiCE5LP
+
+### Device  : iCE5LP4K
+
+### Package : SWG36
+
+### Number of Logic Cells: 3500
+
+### Number of RAM4k Blocks: 20
+
+### Number of DSP Blocks: 4
+
+### Number of PLLs: 1
+
+### Number of IO Pins: 52
+
+##########################################################
+
+                                                          
+
+Optimization goal = Area
+The -top option is not used.
+Target frequency = 200.000000 MHz.
+Maximum fanout = 10000.
+Timing path count = 3
+RWCheckOnRam = 0
+
+BRAM utilization = 100.000000 %
+DSP usage = true (default)
+DSP utilization = 100 % (default)
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = auto (Default)
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+Output EDIF file name = ice40_verilog_Implmnt/ice40_verilog.edf.
+WARNING - synthesis: Option -force_gsr will be set to false when option -output_edif/-ngo are set
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog (searchpath added)
+Verilog design file = ../../../source/verilog/delay_gen.v
+Verilog design file = ../../../source/verilog/filter.v
+Verilog design file = ../../../source/verilog/i2c_master_byte_rx_fsm.v
+Verilog design file = ../../../source/verilog/i2c_master_byte_tx_fsm.v
+Verilog design file = ../../../source/verilog/i2c_master_cntrl_fsm.v
+Verilog design file = ../../../source/verilog/i2c_master_cntrl_fsm_top.v
+Verilog design file = ../../../source/verilog/i2c_master_controller.v
+Verilog design file = ../../../source/verilog/i2c_master_controller_top.v
+Verilog design file = ../../../source/verilog/i2c_master_falling_scl_detect.v
+Verilog design file = ../../../source/verilog/i2c_master_scl_gen.v
+Verilog design file = ../../../source/verilog/i2c_master_start_detect.v
+Verilog design file = ../../../source/verilog/i2c_master_start_gen.v
+Verilog design file = ../../../source/verilog/i2c_master_stop_detect.v
+Verilog design file = ../../../source/verilog/i2c_master_stop_gen.v
+Verilog design file = ../../../source/verilog/i2cbus_cntrl_fsm_top.v
+-sdc option: SDC file input is ice40_timing.sdc.
+--------- Intermediate File Dump will be done -----------
+
+WARNING - synthesis: Setting i2c_master_controller_top as the top-level module. To specify the top-level module explicitly, use the -top option.
+Technology check ok...
+
+Analyzing Verilog file C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
+Analyzing Verilog file C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v. VERI-1482
+Compile design.
+Compile Design Begin
+Analyzing Verilog file ../../../source/verilog/delay_gen.v. VERI-1482
+Analyzing Verilog file ../../../source/verilog/filter.v. VERI-1482
+Analyzing Verilog file ../../../source/verilog/i2c_master_byte_rx_fsm.v. VERI-1482
+Analyzing Verilog file ../../../source/verilog/i2c_master_byte_tx_fsm.v. VERI-1482
+Analyzing Verilog file ../../../source/verilog/i2c_master_cntrl_fsm.v. VERI-1482
+Analyzing Verilog file ../../../source/verilog/i2c_master_cntrl_fsm_top.v. VERI-1482
+Analyzing Verilog file ../../../source/verilog/i2c_master_controller.v. VERI-1482
+Analyzing Verilog file ../../../source/verilog/i2c_master_controller_top.v. VERI-1482
+Analyzing Verilog file ../../../source/verilog/i2c_master_falling_scl_detect.v. VERI-1482
+Analyzing Verilog file ../../../source/verilog/i2c_master_scl_gen.v. VERI-1482
+Analyzing Verilog file ../../../source/verilog/i2c_master_start_detect.v. VERI-1482
+Analyzing Verilog file ../../../source/verilog/i2c_master_start_gen.v. VERI-1482
+Analyzing Verilog file ../../../source/verilog/i2c_master_stop_detect.v. VERI-1482
+Analyzing Verilog file ../../../source/verilog/i2c_master_stop_gen.v. VERI-1482
+Analyzing Verilog file ../../../source/verilog/i2cbus_cntrl_fsm_top.v. VERI-1482
+Analyzing Verilog file C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v. VERI-1482
+WARNING - synthesis: C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(79): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(88): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(98): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(108): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(118): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(170): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(179): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(189): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(199): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(209): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(3725): empty port in module declaration. VERI-1294
+Top module name (Verilog): i2c_master_controller_top
+INFO - synthesis: ../../../source/verilog/i2c_master_controller_top.v(39): compiling module i2c_master_controller_top. VERI-1018
+INFO - synthesis: C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(502): compiling module SB_IO(PIN_TYPE=6'b101001). VERI-1018
+INFO - synthesis: ../../../source/verilog/i2c_master_controller.v(41): compiling module i2c_master_controller. VERI-1018
+INFO - synthesis: ../../../source/verilog/filter.v(39): compiling module filter. VERI-1018
+INFO - synthesis: ../../../source/verilog/i2cbus_cntrl_fsm_top.v(40): compiling module i2cbus_cntrl_fsm_top. VERI-1018
+INFO - synthesis: ../../../source/verilog/i2c_master_falling_scl_detect.v(40): compiling module i2c_master_falling_scl_detect. VERI-1018
+INFO - synthesis: ../../../source/verilog/i2c_master_scl_gen.v(40): compiling module i2c_master_scl_gen. VERI-1018
+INFO - synthesis: ../../../source/verilog/i2c_master_start_detect.v(41): compiling module i2c_master_start_detect. VERI-1018
+INFO - synthesis: ../../../source/verilog/i2c_master_start_gen.v(41): compiling module i2c_master_start_gen. VERI-1018
+INFO - synthesis: ../../../source/verilog/delay_gen.v(40): compiling module delay_gen. VERI-1018
+INFO - synthesis: ../../../source/verilog/i2c_master_stop_detect.v(40): compiling module i2c_master_stop_detect. VERI-1018
+INFO - synthesis: ../../../source/verilog/i2c_master_stop_gen.v(40): compiling module i2c_master_stop_gen. VERI-1018
+INFO - synthesis: ../../../source/verilog/i2c_master_cntrl_fsm_top.v(40): compiling module i2c_master_cntrl_fsm_top. VERI-1018
+INFO - synthesis: ../../../source/verilog/i2c_master_cntrl_fsm.v(40): compiling module i2c_master_cntrl_fsm. VERI-1018
+INFO - synthesis: ../../../source/verilog/i2c_master_byte_tx_fsm.v(41): compiling module i2c_master_byte_tx_fsm. VERI-1018
+INFO - synthesis: ../../../source/verilog/i2c_master_byte_rx_fsm.v(40): compiling module i2c_master_byte_rx_fsm. VERI-1018
+WARNING - synthesis: ../../../source/verilog/i2c_master_cntrl_fsm_top.v(207): net i_ack_mode does not have a driver. VDB-1002
+WARNING - synthesis: ../../../source/verilog/i2c_master_controller_top.v(85): input port LATCH_INPUT_VALUE is not connected on this instance. VDB-1013
+WARNING - synthesis: ../../../source/verilog/i2c_master_controller_top.v(101): input port LATCH_INPUT_VALUE is not connected on this instance. VDB-1013
+Last elaborated design is i2c_master_controller_top()
+Loading NGL library 'C:/lscc/iCEcube2.2017.08/LSE/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/iCEcube2.2017.08/LSE/or5g00/data/orc5glib.ngl'...
+WARNING - synthesis: No object with type NET found matching "i_clk_c".
+WARNING - synthesis: Ignoring Constraint: create_clock  -period 31.25 -name {i_clk_c} [get_nets {i_clk_c}].
+Top-level module name = i2c_master_controller_top.
+WARNING - synthesis: No object with type NET found matching "i_clk_c".
+WARNING - synthesis: Ignoring Constraint: create_clock  -period 31.25 -name {i_clk_c} [get_nets {i_clk_c}].
+WARNING - synthesis: ../../../source/verilog/i2c_master_controller_top.v(85): input port LATCH_INPUT_VALUE is not connected on this instance. VDB-1013
+WARNING - synthesis: ../../../source/verilog/i2c_master_controller_top.v(101): input port LATCH_INPUT_VALUE is not connected on this instance. VDB-1013
+WARNING - synthesis: ../../../source/verilog/i2c_master_cntrl_fsm_top.v(207): net i_ack_mode does not have a driver. VDB-1002
+WARNING - synthesis: ../../../source/verilog/i2c_master_cntrl_fsm_top.v(293): Register \u_i2c_master_controller/cntrl_fsm/arbtr_lost_d1_115 is stuck at Zero. VDB-5013
+WARNING - synthesis: ../../../source/verilog/i2c_master_cntrl_fsm_top.v(365): Register \u_i2c_master_controller/cntrl_fsm/arbtr_lost_reg_122 is stuck at Zero. VDB-5013
+WARNING - synthesis: ../../../source/verilog/i2c_master_cntrl_fsm_top.v(377): Register \u_i2c_master_controller/cntrl_fsm/scl_timeout_reg_123 is stuck at Zero. VDB-5013
+Removed duplicate sequential element \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/count_threshold(16 bit), because it is equivalent to \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/count_threshold
+
+INFO - synthesis: Extracted state machine for register '\u_i2c_master_controller/i2cbus_cntrl_fsm/scl_gen/state' with one-hot encoding
+State machine has 4 reachable states with original encodings of:
+
+ 00 
+
+ 01 
+
+ 10 
+
+ 11 
+
+original encoding -> new encoding (one-hot encoding)
+
+ 00 -> 0001
+
+ 01 -> 0010
+
+ 10 -> 0100
+
+ 11 -> 1000
+
+INFO - synthesis: Extracted state machine for register '\u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/state' with one-hot encoding
+State machine has 7 reachable states with original encodings of:
+
+ 000 
+
+ 001 
+
+ 010 
+
+ 011 
+
+ 100 
+
+ 101 
+
+ 110 
+
+original encoding -> new encoding (one-hot encoding)
+
+ 000 -> 0000001
+
+ 001 -> 0000010
+
+ 010 -> 0000100
+
+ 011 -> 0001000
+
+ 100 -> 0010000
+
+ 101 -> 0100000
+
+ 110 -> 1000000
+
+INFO - synthesis: Extracted state machine for register '\u_i2c_master_controller/cntrl_fsm/cntrl_fsm/state' with one-hot encoding
+State machine has 10 reachable states with original encodings of:
+
+ 0000 
+
+ 0001 
+
+ 0010 
+
+ 0011 
+
+ 0100 
+
+ 0101 
+
+ 0110 
+
+ 0111 
+
+ 1000 
+
+ 1001 
+
+original encoding -> new encoding (one-hot encoding)
+
+ 0000 -> 0000000001
+
+ 0001 -> 0000000010
+
+ 0010 -> 0000000100
+
+ 0011 -> 0000001000
+
+ 0100 -> 0000010000
+
+ 0101 -> 0000100000
+
+ 0110 -> 0001000000
+
+ 0111 -> 0010000000
+
+ 1000 -> 0100000000
+
+ 1001 -> 1000000000
+
+INFO - synthesis: Extracted state machine for register '\u_i2c_master_controller/cntrl_fsm/byte_tx_fsm/state' with one-hot encoding
+State machine has 10 reachable states with original encodings of:
+
+ 0000 
+
+ 0001 
+
+ 0010 
+
+ 0011 
+
+ 0100 
+
+ 0101 
+
+ 0110 
+
+ 0111 
+
+ 1000 
+
+ 1001 
+
+original encoding -> new encoding (one-hot encoding)
+
+ 0000 -> 0000000001
+
+ 0001 -> 0000000010
+
+ 0010 -> 0000000100
+
+ 0011 -> 0000001000
+
+ 0100 -> 0000010000
+
+ 0101 -> 0000100000
+
+ 0110 -> 0001000000
+
+ 0111 -> 0010000000
+
+ 1000 -> 0100000000
+
+ 1001 -> 1000000000
+
+INFO - synthesis: Extracted state machine for register '\u_i2c_master_controller/cntrl_fsm/byte_rx_fsm/state' with one-hot encoding
+State machine has 10 reachable states with original encodings of:
+
+ 0000 
+
+ 0001 
+
+ 0010 
+
+ 0011 
+
+ 0100 
+
+ 0101 
+
+ 0110 
+
+ 0111 
+
+ 1000 
+
+ 1001 
+
+original encoding -> new encoding (one-hot encoding)
+
+ 0000 -> 0000000001
+
+ 0001 -> 0000000010
+
+ 0010 -> 0000000100
+
+ 0011 -> 0000001000
+
+ 0100 -> 0000010000
+
+ 0101 -> 0000100000
+
+ 0110 -> 0001000000
+
+ 0111 -> 0010000000
+
+ 1000 -> 0100000000
+
+ 1001 -> 1000000000
+
+
+
+
+WARNING - synthesis: Bit 0 of Register \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/count_threshold is stuck at Zero
+WARNING - synthesis: Bit 1 of Register \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/count_threshold is stuck at Zero
+WARNING - synthesis: Bit 2 of Register \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/count_threshold is stuck at Zero
+WARNING - synthesis: Bit 3 of Register \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/count_threshold is stuck at Zero
+WARNING - synthesis: Bit 4 of Register \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/count_threshold is stuck at Zero
+WARNING - synthesis: Bit 5 of Register \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/count_threshold is stuck at Zero
+WARNING - synthesis: Bit 6 of Register \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/count_threshold is stuck at Zero
+WARNING - synthesis: Bit 7 of Register \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/count_threshold is stuck at Zero
+WARNING - synthesis: Bit 8 of Register \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/count_threshold is stuck at Zero
+WARNING - synthesis: Bit 10 of Register \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/count_threshold is stuck at Zero
+WARNING - synthesis: Bit 12 of Register \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/count_threshold is stuck at One
+WARNING - synthesis: Bit 13 of Register \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/count_threshold is stuck at Zero
+WARNING - synthesis: Bit 14 of Register \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/count_threshold is stuck at One
+WARNING - synthesis: Bit 15 of Register \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/count_threshold is stuck at Zero
+WARNING - synthesis: Bit 0 of Register \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/state_FSM is stuck at Zero
+WARNING - synthesis: Bit 0 of Register \u_i2c_master_controller/cntrl_fsm/cntrl_fsm/state_FSM is stuck at Zero
+WARNING - synthesis: Bit 1 of Register \u_i2c_master_controller/cntrl_fsm/cntrl_fsm/state_FSM is stuck at Zero
+WARNING - synthesis: Bit 2 of Register \u_i2c_master_controller/cntrl_fsm/cntrl_fsm/state_FSM is stuck at Zero
+WARNING - synthesis: Bit 3 of Register \u_i2c_master_controller/cntrl_fsm/cntrl_fsm/state_FSM is stuck at Zero
+WARNING - synthesis: Bit 4 of Register \u_i2c_master_controller/cntrl_fsm/cntrl_fsm/state_FSM is stuck at Zero
+WARNING - synthesis: Bit 5 of Register \u_i2c_master_controller/cntrl_fsm/cntrl_fsm/state_FSM is stuck at Zero
+WARNING - synthesis: Bit 0 of Register \u_i2c_master_controller/cntrl_fsm/byte_tx_fsm/state_FSM is stuck at Zero
+WARNING - synthesis: Bit 1 of Register \u_i2c_master_controller/cntrl_fsm/byte_tx_fsm/state_FSM is stuck at Zero
+WARNING - synthesis: Bit 2 of Register \u_i2c_master_controller/cntrl_fsm/byte_tx_fsm/state_FSM is stuck at Zero
+WARNING - synthesis: Bit 3 of Register \u_i2c_master_controller/cntrl_fsm/byte_tx_fsm/state_FSM is stuck at Zero
+WARNING - synthesis: Bit 4 of Register \u_i2c_master_controller/cntrl_fsm/byte_tx_fsm/state_FSM is stuck at Zero
+WARNING - synthesis: Bit 5 of Register \u_i2c_master_controller/cntrl_fsm/byte_tx_fsm/state_FSM is stuck at Zero
+WARNING - synthesis: Bit 0 of Register \u_i2c_master_controller/cntrl_fsm/byte_rx_fsm/state_FSM is stuck at Zero
+WARNING - synthesis: Bit 1 of Register \u_i2c_master_controller/cntrl_fsm/byte_rx_fsm/state_FSM is stuck at Zero
+WARNING - synthesis: Bit 2 of Register \u_i2c_master_controller/cntrl_fsm/byte_rx_fsm/state_FSM is stuck at Zero
+WARNING - synthesis: Bit 3 of Register \u_i2c_master_controller/cntrl_fsm/byte_rx_fsm/state_FSM is stuck at Zero
+WARNING - synthesis: Bit 4 of Register \u_i2c_master_controller/cntrl_fsm/byte_rx_fsm/state_FSM is stuck at Zero
+WARNING - synthesis: Bit 5 of Register \u_i2c_master_controller/cntrl_fsm/byte_rx_fsm/state_FSM is stuck at Zero
+WARNING - synthesis: Bit 0 of Register \u_i2c_master_controller/cntrl_fsm/slave_addr is stuck at Zero
+WARNING - synthesis: Bit 1 of Register \u_i2c_master_controller/cntrl_fsm/slave_addr is stuck at Zero
+WARNING - synthesis: Bit 9 of Register \u_i2c_master_controller/cntrl_fsm/slave_addr is stuck at Zero
+WARNING - synthesis: Skipping pad insertion on io_scl due to black_box_pad_pin attribute.
+WARNING - synthesis: Skipping pad insertion on io_sda due to black_box_pad_pin attribute.
+Writing scf file : ice40_verilog_Implmnt/ice40_verilog.scf
+
+Results of NGD DRC are available in i2c_master_controller_top_drc.log.
+
+################### Begin Area Report (i2c_master_controller_top)######################
+Number of register bits => 209 of 3500 (5 % )
+SB_CARRY => 53
+SB_DFFE => 8
+SB_DFFER => 41
+SB_DFFES => 1
+SB_DFFR => 148
+SB_DFFS => 11
+SB_GB_IO => 1
+SB_IO => 65
+SB_LUT4 => 261
+################### End Area Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 1
+  Net : i_clk_c, loads : 204
+Clock Enable Nets
+Number of Clock Enables: 0
+Top 0 highest fanout Clock Enables:
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : u_i2c_master_controller/i_rst_n_N_7, loads : 109
+  Net : u_i2c_master_controller/reset, loads : 91
+  Net : u_i2c_master_controller/filter_scl/out_n, loads : 27
+  Net : u_i2c_master_controller/i2cbus_cntrl_fsm/falling_scl_detect/i2c_master_falling_scl_detect, loads : 22
+  Net : u_i2c_master_controller/cntrl_fsm/cntrl_fsm/config_latch_en, loads : 18
+  Net : u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/n930, loads : 15
+  Net : u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/n899, loads : 15
+  Net : u_i2c_master_controller/cntrl_fsm/cntrl_fsm/n788, loads : 13
+  Net : u_i2c_master_controller/i2cbus_cntrl_fsm/scl_gen/n1080, loads : 9
+  Net : u_i2c_master_controller/i2cbus_cntrl_fsm/scl_gen/n1330, loads : 9
+################### End Clock Report ##################
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk500 [get_nets i_clk_c]               |  200.000 MHz|   37.567 MHz|    17 *
+                                        |             |             |
+ create_clock -period 5.000 -name       |             |             |
+i2c_master_controller_top|i_clk [       |             |             |
+get_nets i_clk_c ]                      |            -|            -|     0  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+1 constraints not met.
+
+
+Peak Memory Usage: 37.832  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 2.859  secs
+--------------------------------------------------------------
+Current Implementation ice40_verilog_Implmnt its sbt path: E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt
+Synthesis succeed.
+Synthesis succeeded.
+Synthesis runtime 3 seconds
+
+
+"C:/lscc/iCEcube2.2017.08/sbt_backend/bin/win32/opt\edifparser.exe" "C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ICE40T04.dev" "E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt/ice40_verilog.edf C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ipfiles\iCE5LP\rgbsoft.edf " "E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\netlist" "-pSWG36" -s"E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_timing.sdc E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/i2c_master_controller_top_temp_lse.sdc " -c --devicename iCE5LP4K
+starting edif parserrunning edif parserLattice Semiconductor Corporation  Edif Parser
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 16:51:25
+
+Parsing edif file: E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt/ice40_verilog.edf...
+Parsing edif file: C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ipfiles\iCE5LP\rgbsoft.edf...
+start to read sdc/scf file E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt/ice40_verilog.scf
+sdc_reader OK E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt/ice40_verilog.scf
+start to read sdc/scf file E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_timing.sdc
+sdc_reader OK E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_timing.sdc
+start to read sdc/scf file E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/i2c_master_controller_top_temp_lse.sdc
+Warning: Found double defined(create_clock) at i2c_master_controller_top|i_clk. Using latest one and ignore previous one
+	Ignored create_clock  -period 5.00  -waveform {0.00 2.50}  -name {i2c_master_controller_top|i_clk} [get_ports {i_clk}]
+Stored edif netlist at E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\netlist\oadb-i2c_master_controller_top...
+Warning: The terminal connectivity i_clk_div_lsb_pad_4:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_receive_data_pad_4:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_mode_reg_pad_6:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_int_n_pad:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity o_cmd_status_reg_pad_4:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_clk_pad:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_clk_div_lsb_pad_3:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_receive_data_pad_3:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity o_cmd_status_reg_pad_3:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_config_reg_pad_2:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_received_data_valid_pad:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_transmit_data_pad_6:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_slave_addr_reg_pad_5:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_clk_div_lsb_pad_7:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_receive_data_pad_7:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_transmit_data_pad_3:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_mode_reg_pad_5:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_byte_cnt_reg_pad_1:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_config_reg_pad_4:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_cmd_status_reg_pad_7:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_slave_addr_reg_pad_0:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_clk_div_lsb_pad_2:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_receive_data_pad_2:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_transmit_data_pad_0:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_byte_cnt_reg_pad_6:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_transmit_data_request_pad:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity scl_io:LATCHINPUTVALUE is removed because the PIN_TYPE is configured as 101001
+Warning: The terminal connectivity scl_io:INPUTCLK is removed because the PIN_TYPE is configured as 101001
+Warning: The terminal connectivity scl_io:OUTPUTCLK is removed because the PIN_TYPE is configured as 101001
+Warning: The terminal connectivity o_cmd_status_reg_pad_2:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_slave_addr_reg_pad_3:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity sda_io:LATCHINPUTVALUE is removed because the PIN_TYPE is configured as 101001
+Warning: The terminal connectivity sda_io:INPUTCLK is removed because the PIN_TYPE is configured as 101001
+Warning: The terminal connectivity sda_io:OUTPUTCLK is removed because the PIN_TYPE is configured as 101001
+Warning: The terminal connectivity i_clk_div_lsb_pad_1:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_config_reg_pad_3:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_receive_data_pad_1:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity o_cmd_status_reg_pad_1:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_transmit_data_pad_7:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_mode_reg_pad_1:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_config_reg_pad_0:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_slave_addr_reg_pad_4:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_clk_div_lsb_pad_6:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_receive_data_pad_6:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_transmit_data_pad_4:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_byte_cnt_reg_pad_2:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_config_reg_pad_5:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_cmd_status_reg_pad_6:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_clk_div_lsb_pad_5:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_start_ack_pad:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity o_receive_data_pad_5:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_transmit_data_pad_1:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_mode_reg_pad_7:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_byte_cnt_reg_pad_7:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_cmd_status_reg_pad_5:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_slave_addr_reg_pad_2:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_receive_data_pad_0:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_byte_cnt_reg_pad_4:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_cmd_status_reg_pad_0:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_mode_reg_pad_0:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_config_reg_pad_1:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_rst_n_pad:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_transmit_data_pad_5:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_mode_reg_pad_3:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_byte_cnt_reg_pad_3:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_slave_addr_reg_pad_6:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_transmit_data_pad_2:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_byte_cnt_reg_pad_0:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_slave_addr_reg_pad_1:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_byte_cnt_reg_pad_5:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal u_i2c_master_controller.cntrl_fsm.cntrl_fsm.o_start_ack_193:E is driven by default driver : VCC, Disconnecting it.
+Warning: The terminal u_i2c_master_controller.cntrl_fsm.abort_reg1_103:E is driven by default driver : VCC, Disconnecting it.
+Warning: The terminal u_i2c_master_controller.cntrl_fsm.cntrl_fsm.o_rxfifo_wren_189:E is driven by default driver : VCC, Disconnecting it.
+Warning: The terminal u_i2c_master_controller.soft_reset_d1_17:E is driven by default driver : VCC, Disconnecting it.
+Warning: The terminal u_i2c_master_controller.cntrl_fsm.start_reg1_104:E is driven by default driver : VCC, Disconnecting it.
+
+write Timing Constraint to E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt/Temp/sbt_temp.sdc
+
+EDIF Parser succeeded
+Top module is: i2c_master_controller_top
+
+EDF Parser run-time: 2 (sec)
+edif parser succeed.
+Unrecognizable name i2c_master_controller_top
+
+
+"C:/lscc/iCEcube2.2017.08/sbt_backend/bin/win32/opt\sbtplacer.exe" --des-lib "E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\netlist\oadb-i2c_master_controller_top" --outdir "E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\outputs\placer" --device-file "C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ICE40T04.dev" --package SWG36 --deviceMarketName iCE5LP4K --sdc-file "E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\Temp/sbt_temp.sdc" --lib-file "C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ice40TH4K.lib" --effort_level std --out-sdc-file "E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\outputs\placer\i2c_master_controller_top_pl.sdc"
+starting placerrunning placerExecuting : C:\lscc\iCEcube2.2017.08\sbt_backend\bin\win32\opt\sbtplacer.exe --des-lib E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\netlist\oadb-i2c_master_controller_top --outdir E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\outputs\placer --device-file C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ICE40T04.dev --package SWG36 --deviceMarketName iCE5LP4K --sdc-file E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\Temp/sbt_temp.sdc --lib-file C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ice40TH4K.lib --effort_level std --out-sdc-file E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\outputs\placer\i2c_master_controller_top_pl.sdc
+Lattice Semiconductor Corporation  Placer
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 17:12:23
+
+I2004: Option and Settings Summary
+=============================================================
+Device file          - C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ICE40T04.dev
+Package              - SWG36
+Design database      - E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\netlist\oadb-i2c_master_controller_top
+SDC file             - E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\Temp/sbt_temp.sdc
+Output directory     - E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\outputs\placer
+Timing library       - C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ice40TH4K.lib
+Effort level         - std
+
+I2050: Starting reading inputs for placer
+=============================================================
+I2100: Reading design library: E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\netlist\oadb-i2c_master_controller_top/BFPGA_DESIGN_ep
+I2065: Reading device file : C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ICE40T04.dev
+I2051: Reading of inputs for placer completed successfully
+
+I2053: Starting placement of the design
+=============================================================
+
+Input Design Statistics
+    Number of LUTs      	:	261
+    Number of DFFs      	:	209
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	53
+    Number of RAMs      	:	0
+    Number of ROMs      	:	0
+    Number of IOs       	:	65
+    Number of GBIOs     	:	1
+    Number of GBs       	:	0
+    Number of WarmBoot  	:	0
+    Number of PLLs      	:	0
+    Number of I2Cs      	:	0
+    Number of SPIs      	:	0
+    Number of DSPs     	:	0
+    Number of SBIOODs     	:	0
+    Number of LEDDRVs     	:	0
+    Number of RGBDRVs     	:	0
+    Number of LEDDIPs     	:	0
+    Number of IRDRVs     	:	0
+    Number of LFOSCs     	:	0
+    Number of HFOSCs     	:	0
+
+
+Phase 1
+I2077: Start design legalization
+I3013: Unable to fit the design into the selected device/package
+DEVICE IO Count:
+ (a) Regular IOs (SB_IO/SB_GB_IO) on the chip  - 18
+ (b) SPI IOs on the chip                       - 4
+ (c) Open Drain IOs (SB_IO_OD) on the chip     - 4
+                                               ------
+ Total IO Capacity of Chip (a + b + c)         - 26
+                                               ------
+DESIGN IO Count:
+ (a) Regular IOs(auto placement)            - 66
+ (b) SPI Constrained IOs in the design      - 0
+ (c) Open Drain IOs                         - 0
+                                            ------
+ Total IO count of the design (a + b + c)   - 66
+                                            ------
+E2081: Feasibility check for IO Placement failed
+E2080: Design legalizer failed: Design can not be legalized
+E2055: Error while doing placement of the design
+
+
+"C:/lscc/iCEcube2.2017.08/sbt_backend/bin/win32/opt\edifparser.exe" "C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ICE40T04.dev" "E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt/ice40_verilog.edf C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ipfiles\iCE5LP\rgbsoft.edf " "E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\netlist" "-pSWG36" "-yE:\MyStuff\dev\dadandson\z80\fpga\i2c\rd1139_i2c_master_controller\rd1139\project\ice40\verilog\ice40_verilog_Implmnt\sbt\constraint\i2c_master_controller_top_pcf_sbt.pcf " -s"E:\MyStuff\dev\dadandson\z80\fpga\i2c\rd1139_i2c_master_controller\rd1139\project\ice40\verilog\ice40_timing.sdc E:\MyStuff\dev\dadandson\z80\fpga\i2c\rd1139_i2c_master_controller\rd1139\project\ice40\verilog\i2c_master_controller_top_temp_lse.sdc " -c --devicename iCE5LP4K
+starting edif parserrunning edif parserLattice Semiconductor Corporation  Edif Parser
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 16:51:25
+
+Parsing edif file: E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt/ice40_verilog.edf...
+Parsing edif file: C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ipfiles\iCE5LP\rgbsoft.edf...
+Parsing constraint file: E:\MyStuff\dev\dadandson\z80\fpga\i2c\rd1139_i2c_master_controller\rd1139\project\ice40\verilog\ice40_verilog_Implmnt\sbt\constraint\i2c_master_controller_top_pcf_sbt.pcf ...
+start to read sdc/scf file E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt/ice40_verilog.scf
+sdc_reader OK E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt/ice40_verilog.scf
+start to read sdc/scf file E:\MyStuff\dev\dadandson\z80\fpga\i2c\rd1139_i2c_master_controller\rd1139\project\ice40\verilog\ice40_timing.sdc
+sdc_reader OK E:\MyStuff\dev\dadandson\z80\fpga\i2c\rd1139_i2c_master_controller\rd1139\project\ice40\verilog\ice40_timing.sdc
+start to read sdc/scf file E:\MyStuff\dev\dadandson\z80\fpga\i2c\rd1139_i2c_master_controller\rd1139\project\ice40\verilog\i2c_master_controller_top_temp_lse.sdc
+Warning: Found double defined(create_clock) at i2c_master_controller_top|i_clk. Using latest one and ignore previous one
+	Ignored create_clock  -period 5.00  -waveform {0.00 2.50}  -name {i2c_master_controller_top|i_clk} [get_ports {i_clk}]
+Stored edif netlist at E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\netlist\oadb-i2c_master_controller_top...
+Warning: The terminal connectivity i_clk_div_lsb_pad_4:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_receive_data_pad_4:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_mode_reg_pad_6:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_int_n_pad:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity o_cmd_status_reg_pad_4:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_clk_pad:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_clk_div_lsb_pad_3:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_receive_data_pad_3:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity o_cmd_status_reg_pad_3:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_config_reg_pad_2:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_received_data_valid_pad:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_transmit_data_pad_6:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_slave_addr_reg_pad_5:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_clk_div_lsb_pad_7:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_receive_data_pad_7:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_transmit_data_pad_3:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_mode_reg_pad_5:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_byte_cnt_reg_pad_1:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_config_reg_pad_4:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_cmd_status_reg_pad_7:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_slave_addr_reg_pad_0:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_clk_div_lsb_pad_2:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_receive_data_pad_2:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_transmit_data_pad_0:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_byte_cnt_reg_pad_6:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_transmit_data_request_pad:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity scl_io:LATCHINPUTVALUE is removed because the PIN_TYPE is configured as 101001
+Warning: The terminal connectivity scl_io:INPUTCLK is removed because the PIN_TYPE is configured as 101001
+Warning: The terminal connectivity scl_io:OUTPUTCLK is removed because the PIN_TYPE is configured as 101001
+Warning: The terminal connectivity o_cmd_status_reg_pad_2:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_slave_addr_reg_pad_3:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity sda_io:LATCHINPUTVALUE is removed because the PIN_TYPE is configured as 101001
+Warning: The terminal connectivity sda_io:INPUTCLK is removed because the PIN_TYPE is configured as 101001
+Warning: The terminal connectivity sda_io:OUTPUTCLK is removed because the PIN_TYPE is configured as 101001
+Warning: The terminal connectivity i_clk_div_lsb_pad_1:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_config_reg_pad_3:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_receive_data_pad_1:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity o_cmd_status_reg_pad_1:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_transmit_data_pad_7:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_mode_reg_pad_1:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_config_reg_pad_0:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_slave_addr_reg_pad_4:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_clk_div_lsb_pad_6:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_receive_data_pad_6:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_transmit_data_pad_4:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_byte_cnt_reg_pad_2:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_config_reg_pad_5:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_cmd_status_reg_pad_6:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_clk_div_lsb_pad_5:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_start_ack_pad:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity o_receive_data_pad_5:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_transmit_data_pad_1:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_mode_reg_pad_7:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_byte_cnt_reg_pad_7:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_cmd_status_reg_pad_5:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_slave_addr_reg_pad_2:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_receive_data_pad_0:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_byte_cnt_reg_pad_4:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_cmd_status_reg_pad_0:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_mode_reg_pad_0:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_config_reg_pad_1:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_rst_n_pad:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_transmit_data_pad_5:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_mode_reg_pad_3:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_byte_cnt_reg_pad_3:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_slave_addr_reg_pad_6:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_transmit_data_pad_2:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_byte_cnt_reg_pad_0:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_slave_addr_reg_pad_1:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_byte_cnt_reg_pad_5:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal u_i2c_master_controller.cntrl_fsm.start_reg1_104:E is driven by default driver : VCC, Disconnecting it.
+Warning: The terminal u_i2c_master_controller.soft_reset_d1_17:E is driven by default driver : VCC, Disconnecting it.
+Warning: The terminal u_i2c_master_controller.cntrl_fsm.cntrl_fsm.o_rxfifo_wren_189:E is driven by default driver : VCC, Disconnecting it.
+Warning: The terminal u_i2c_master_controller.cntrl_fsm.abort_reg1_103:E is driven by default driver : VCC, Disconnecting it.
+Warning: The terminal u_i2c_master_controller.cntrl_fsm.cntrl_fsm.o_start_ack_193:E is driven by default driver : VCC, Disconnecting it.
+
+write Timing Constraint to E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt/Temp/sbt_temp.sdc
+
+EDIF Parser succeeded
+Top module is: i2c_master_controller_top
+
+EDF Parser run-time: 1 (sec)
+edif parser succeed.
+
+
+"C:/lscc/iCEcube2.2017.08/sbt_backend/bin/win32/opt\sbtplacer.exe" --des-lib "E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\netlist\oadb-i2c_master_controller_top" --outdir "E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\outputs\placer" --device-file "C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ICE40T04.dev" --package SWG36 --deviceMarketName iCE5LP4K --sdc-file "E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\Temp/sbt_temp.sdc" --lib-file "C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ice40TH4K.lib" --effort_level std --out-sdc-file "E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\outputs\placer\i2c_master_controller_top_pl.sdc"
+starting placerrunning placerExecuting : C:\lscc\iCEcube2.2017.08\sbt_backend\bin\win32\opt\sbtplacer.exe --des-lib E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\netlist\oadb-i2c_master_controller_top --outdir E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\outputs\placer --device-file C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ICE40T04.dev --package SWG36 --deviceMarketName iCE5LP4K --sdc-file E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\Temp/sbt_temp.sdc --lib-file C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ice40TH4K.lib --effort_level std --out-sdc-file E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\outputs\placer\i2c_master_controller_top_pl.sdc
+Lattice Semiconductor Corporation  Placer
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 17:12:23
+
+I2004: Option and Settings Summary
+=============================================================
+Device file          - C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ICE40T04.dev
+Package              - SWG36
+Design database      - E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\netlist\oadb-i2c_master_controller_top
+SDC file             - E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\Temp/sbt_temp.sdc
+Output directory     - E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\outputs\placer
+Timing library       - C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ice40TH4K.lib
+Effort level         - std
+
+I2050: Starting reading inputs for placer
+=============================================================
+I2100: Reading design library: E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\netlist\oadb-i2c_master_controller_top/BFPGA_DESIGN_ep
+I2065: Reading device file : C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ICE40T04.dev
+I2051: Reading of inputs for placer completed successfully
+
+I2053: Starting placement of the design
+=============================================================
+
+Input Design Statistics
+    Number of LUTs      	:	261
+    Number of DFFs      	:	209
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	53
+    Number of RAMs      	:	0
+    Number of ROMs      	:	0
+    Number of IOs       	:	65
+    Number of GBIOs     	:	1
+    Number of GBs       	:	0
+    Number of WarmBoot  	:	0
+    Number of PLLs      	:	0
+    Number of I2Cs      	:	0
+    Number of SPIs      	:	0
+    Number of DSPs     	:	0
+    Number of SBIOODs     	:	0
+    Number of LEDDRVs     	:	0
+    Number of RGBDRVs     	:	0
+    Number of LEDDIPs     	:	0
+    Number of IRDRVs     	:	0
+    Number of LFOSCs     	:	0
+    Number of HFOSCs     	:	0
+
+
+Phase 1
+I2077: Start design legalization
+I3013: Unable to fit the design into the selected device/package
+DEVICE IO Count:
+ (a) Regular IOs (SB_IO/SB_GB_IO) on the chip  - 18
+ (b) SPI IOs on the chip                       - 4
+ (c) Open Drain IOs (SB_IO_OD) on the chip     - 4
+                                               ------
+ Total IO Capacity of Chip (a + b + c)         - 26
+                                               ------
+DESIGN IO Count:
+ (a) Regular IOs(auto placement)            - 66
+ (b) SPI Constrained IOs in the design      - 0
+ (c) Open Drain IOs                         - 0
+                                            ------
+ Total IO count of the design (a + b + c)   - 66
+                                            ------
+E2081: Feasibility check for IO Placement failed
+E2080: Design legalizer failed: Design can not be legalized
+E2055: Error while doing placement of the design
+Unrecognizable name i2c_master_controller_top
+
+
+"C:/lscc/iCEcube2.2017.08/sbt_backend/bin/win32/opt\sbtplacer.exe" --des-lib "E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\netlist\oadb-i2c_master_controller_top" --outdir "E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\outputs\placer" --device-file "C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ICE40T04.dev" --package SWG36 --deviceMarketName iCE5LP4K --sdc-file "E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\Temp/sbt_temp.sdc" --lib-file "C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ice40TH4K.lib" --effort_level std --out-sdc-file "E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\outputs\placer\i2c_master_controller_top_pl.sdc"
+starting placerrunning placerExecuting : C:\lscc\iCEcube2.2017.08\sbt_backend\bin\win32\opt\sbtplacer.exe --des-lib E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\netlist\oadb-i2c_master_controller_top --outdir E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\outputs\placer --device-file C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ICE40T04.dev --package SWG36 --deviceMarketName iCE5LP4K --sdc-file E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\Temp/sbt_temp.sdc --lib-file C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ice40TH4K.lib --effort_level std --out-sdc-file E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\outputs\placer\i2c_master_controller_top_pl.sdc
+Lattice Semiconductor Corporation  Placer
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 17:12:23
+
+I2004: Option and Settings Summary
+=============================================================
+Device file          - C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ICE40T04.dev
+Package              - SWG36
+Design database      - E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\netlist\oadb-i2c_master_controller_top
+SDC file             - E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\Temp/sbt_temp.sdc
+Output directory     - E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\outputs\placer
+Timing library       - C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ice40TH4K.lib
+Effort level         - std
+
+I2050: Starting reading inputs for placer
+=============================================================
+I2100: Reading design library: E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\netlist\oadb-i2c_master_controller_top/BFPGA_DESIGN_ep
+I2065: Reading device file : C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ICE40T04.dev
+I2051: Reading of inputs for placer completed successfully
+
+I2053: Starting placement of the design
+=============================================================
+
+Input Design Statistics
+    Number of LUTs      	:	261
+    Number of DFFs      	:	209
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	53
+    Number of RAMs      	:	0
+    Number of ROMs      	:	0
+    Number of IOs       	:	65
+    Number of GBIOs     	:	1
+    Number of GBs       	:	0
+    Number of WarmBoot  	:	0
+    Number of PLLs      	:	0
+    Number of I2Cs      	:	0
+    Number of SPIs      	:	0
+    Number of DSPs     	:	0
+    Number of SBIOODs     	:	0
+    Number of LEDDRVs     	:	0
+    Number of RGBDRVs     	:	0
+    Number of LEDDIPs     	:	0
+    Number of IRDRVs     	:	0
+    Number of LFOSCs     	:	0
+    Number of HFOSCs     	:	0
+
+
+Phase 1
+I2077: Start design legalization
+I3013: Unable to fit the design into the selected device/package
+DEVICE IO Count:
+ (a) Regular IOs (SB_IO/SB_GB_IO) on the chip  - 18
+ (b) SPI IOs on the chip                       - 4
+ (c) Open Drain IOs (SB_IO_OD) on the chip     - 4
+                                               ------
+ Total IO Capacity of Chip (a + b + c)         - 26
+                                               ------
+DESIGN IO Count:
+ (a) Regular IOs(auto placement)            - 66
+ (b) SPI Constrained IOs in the design      - 0
+ (c) Open Drain IOs                         - 0
+                                            ------
+ Total IO count of the design (a + b + c)   - 66
+                                            ------
+E2081: Feasibility check for IO Placement failed
+E2080: Design legalizer failed: Design can not be legalized
+E2055: Error while doing placement of the design
+Unrecognizable name i2c_master_controller_top
+
+
+"C:/lscc/iCEcube2.2017.08/sbt_backend/bin/win32/opt\sbtplacer.exe" --des-lib "E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\netlist\oadb-i2c_master_controller_top" --outdir "E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\outputs\placer" --device-file "C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ICE40T04.dev" --package SWG36 --deviceMarketName iCE5LP4K --sdc-file "E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\Temp/sbt_temp.sdc" --lib-file "C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ice40TH4K.lib" --effort_level std --out-sdc-file "E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\outputs\placer\i2c_master_controller_top_pl.sdc"
+starting placerrunning placerExecuting : C:\lscc\iCEcube2.2017.08\sbt_backend\bin\win32\opt\sbtplacer.exe --des-lib E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\netlist\oadb-i2c_master_controller_top --outdir E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\outputs\placer --device-file C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ICE40T04.dev --package SWG36 --deviceMarketName iCE5LP4K --sdc-file E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\Temp/sbt_temp.sdc --lib-file C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ice40TH4K.lib --effort_level std --out-sdc-file E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\outputs\placer\i2c_master_controller_top_pl.sdc
+Lattice Semiconductor Corporation  Placer
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 17:12:23
+
+I2004: Option and Settings Summary
+=============================================================
+Device file          - C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ICE40T04.dev
+Package              - SWG36
+Design database      - E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\netlist\oadb-i2c_master_controller_top
+SDC file             - E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\Temp/sbt_temp.sdc
+Output directory     - E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\outputs\placer
+Timing library       - C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ice40TH4K.lib
+Effort level         - std
+
+I2050: Starting reading inputs for placer
+=============================================================
+I2100: Reading design library: E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\netlist\oadb-i2c_master_controller_top/BFPGA_DESIGN_ep
+I2065: Reading device file : C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ICE40T04.dev
+I2051: Reading of inputs for placer completed successfully
+
+I2053: Starting placement of the design
+=============================================================
+
+Input Design Statistics
+    Number of LUTs      	:	261
+    Number of DFFs      	:	209
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	53
+    Number of RAMs      	:	0
+    Number of ROMs      	:	0
+    Number of IOs       	:	65
+    Number of GBIOs     	:	1
+    Number of GBs       	:	0
+    Number of WarmBoot  	:	0
+    Number of PLLs      	:	0
+    Number of I2Cs      	:	0
+    Number of SPIs      	:	0
+    Number of DSPs     	:	0
+    Number of SBIOODs     	:	0
+    Number of LEDDRVs     	:	0
+    Number of RGBDRVs     	:	0
+    Number of LEDDIPs     	:	0
+    Number of IRDRVs     	:	0
+    Number of LFOSCs     	:	0
+    Number of HFOSCs     	:	0
+
+
+Phase 1
+I2077: Start design legalization
+I3013: Unable to fit the design into the selected device/package
+DEVICE IO Count:
+ (a) Regular IOs (SB_IO/SB_GB_IO) on the chip  - 18
+ (b) SPI IOs on the chip                       - 4
+ (c) Open Drain IOs (SB_IO_OD) on the chip     - 4
+                                               ------
+ Total IO Capacity of Chip (a + b + c)         - 26
+                                               ------
+DESIGN IO Count:
+ (a) Regular IOs(auto placement)            - 66
+ (b) SPI Constrained IOs in the design      - 0
+ (c) Open Drain IOs                         - 0
+                                            ------
+ Total IO count of the design (a + b + c)   - 66
+                                            ------
+E2081: Feasibility check for IO Placement failed
+E2080: Design legalizer failed: Design can not be legalized
+E2055: Error while doing placement of the design
+Unrecognizable name i2c_master_controller_top
+
+
+"C:/lscc/iCEcube2.2017.08/sbt_backend/bin/win32/opt\edifparser.exe" "C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ICE40T04.dev" "E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt/ice40_verilog.edf C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ipfiles\iCE5LP\rgbsoft.edf " "E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\netlist" "-pSWG36" "-yE:\MyStuff\dev\dadandson\z80\fpga\i2c\rd1139_i2c_master_controller\rd1139\project\ice40\verilog\ice40_verilog_Implmnt\sbt\constraint\i2c_master_controller_top_pcf_sbt.pcf " -s"E:\MyStuff\dev\dadandson\z80\fpga\i2c\rd1139_i2c_master_controller\rd1139\project\ice40\verilog\ice40_timing.sdc E:\MyStuff\dev\dadandson\z80\fpga\i2c\rd1139_i2c_master_controller\rd1139\project\ice40\verilog\i2c_master_controller_top_temp_lse.sdc " -c --devicename iCE5LP4K
+starting edif parserrunning edif parserLattice Semiconductor Corporation  Edif Parser
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 16:51:25
+
+Parsing edif file: E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt/ice40_verilog.edf...
+Parsing edif file: C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ipfiles\iCE5LP\rgbsoft.edf...
+Parsing constraint file: E:\MyStuff\dev\dadandson\z80\fpga\i2c\rd1139_i2c_master_controller\rd1139\project\ice40\verilog\ice40_verilog_Implmnt\sbt\constraint\i2c_master_controller_top_pcf_sbt.pcf ...
+start to read sdc/scf file E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt/ice40_verilog.scf
+sdc_reader OK E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt/ice40_verilog.scf
+start to read sdc/scf file E:\MyStuff\dev\dadandson\z80\fpga\i2c\rd1139_i2c_master_controller\rd1139\project\ice40\verilog\ice40_timing.sdc
+sdc_reader OK E:\MyStuff\dev\dadandson\z80\fpga\i2c\rd1139_i2c_master_controller\rd1139\project\ice40\verilog\ice40_timing.sdc
+start to read sdc/scf file E:\MyStuff\dev\dadandson\z80\fpga\i2c\rd1139_i2c_master_controller\rd1139\project\ice40\verilog\i2c_master_controller_top_temp_lse.sdc
+Warning: Found double defined(create_clock) at i2c_master_controller_top|i_clk. Using latest one and ignore previous one
+	Ignored create_clock  -period 5.00  -waveform {0.00 2.50}  -name {i2c_master_controller_top|i_clk} [get_ports {i_clk}]
+Stored edif netlist at E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\netlist\oadb-i2c_master_controller_top...
+Warning: The terminal connectivity i_clk_div_lsb_pad_4:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_receive_data_pad_4:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_mode_reg_pad_6:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_int_n_pad:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity o_cmd_status_reg_pad_4:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_clk_pad:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_clk_div_lsb_pad_3:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_receive_data_pad_3:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity o_cmd_status_reg_pad_3:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_config_reg_pad_2:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_received_data_valid_pad:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_transmit_data_pad_6:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_slave_addr_reg_pad_5:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_clk_div_lsb_pad_7:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_receive_data_pad_7:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_transmit_data_pad_3:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_mode_reg_pad_5:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_byte_cnt_reg_pad_1:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_config_reg_pad_4:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_cmd_status_reg_pad_7:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_slave_addr_reg_pad_0:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_clk_div_lsb_pad_2:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_receive_data_pad_2:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_transmit_data_pad_0:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_byte_cnt_reg_pad_6:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_transmit_data_request_pad:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity scl_io:LATCHINPUTVALUE is removed because the PIN_TYPE is configured as 101001
+Warning: The terminal connectivity scl_io:INPUTCLK is removed because the PIN_TYPE is configured as 101001
+Warning: The terminal connectivity scl_io:OUTPUTCLK is removed because the PIN_TYPE is configured as 101001
+Warning: The terminal connectivity o_cmd_status_reg_pad_2:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_slave_addr_reg_pad_3:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity sda_io:LATCHINPUTVALUE is removed because the PIN_TYPE is configured as 101001
+Warning: The terminal connectivity sda_io:INPUTCLK is removed because the PIN_TYPE is configured as 101001
+Warning: The terminal connectivity sda_io:OUTPUTCLK is removed because the PIN_TYPE is configured as 101001
+Warning: The terminal connectivity i_clk_div_lsb_pad_1:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_config_reg_pad_3:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_receive_data_pad_1:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity o_cmd_status_reg_pad_1:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_transmit_data_pad_7:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_mode_reg_pad_1:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_config_reg_pad_0:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_slave_addr_reg_pad_4:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_clk_div_lsb_pad_6:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_receive_data_pad_6:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_transmit_data_pad_4:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_byte_cnt_reg_pad_2:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_config_reg_pad_5:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_cmd_status_reg_pad_6:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_clk_div_lsb_pad_5:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_start_ack_pad:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity o_receive_data_pad_5:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_transmit_data_pad_1:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_mode_reg_pad_7:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_byte_cnt_reg_pad_7:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_cmd_status_reg_pad_5:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_slave_addr_reg_pad_2:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_receive_data_pad_0:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_byte_cnt_reg_pad_4:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity o_cmd_status_reg_pad_0:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity i_mode_reg_pad_0:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_config_reg_pad_1:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_rst_n_pad:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_transmit_data_pad_5:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_mode_reg_pad_3:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_byte_cnt_reg_pad_3:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_slave_addr_reg_pad_6:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_transmit_data_pad_2:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_byte_cnt_reg_pad_0:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_slave_addr_reg_pad_1:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal connectivity i_byte_cnt_reg_pad_5:OUTPUTENABLE is removed because the PIN_TYPE is configured as 000001
+Warning: The terminal u_i2c_master_controller.cntrl_fsm.abort_reg1_103:E is driven by default driver : VCC, Disconnecting it.
+Warning: The terminal u_i2c_master_controller.cntrl_fsm.cntrl_fsm.o_start_ack_193:E is driven by default driver : VCC, Disconnecting it.
+Warning: The terminal u_i2c_master_controller.cntrl_fsm.cntrl_fsm.o_rxfifo_wren_189:E is driven by default driver : VCC, Disconnecting it.
+Warning: The terminal u_i2c_master_controller.cntrl_fsm.start_reg1_104:E is driven by default driver : VCC, Disconnecting it.
+Warning: The terminal u_i2c_master_controller.soft_reset_d1_17:E is driven by default driver : VCC, Disconnecting it.
+
+write Timing Constraint to E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt/Temp/sbt_temp.sdc
+
+EDIF Parser succeeded
+Top module is: i2c_master_controller_top
+
+EDF Parser run-time: 1 (sec)
+edif parser succeed.
+
+
+"C:/lscc/iCEcube2.2017.08/sbt_backend/bin/win32/opt\sbtplacer.exe" --des-lib "E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\netlist\oadb-i2c_master_controller_top" --outdir "E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\outputs\placer" --device-file "C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ICE40T04.dev" --package SWG36 --deviceMarketName iCE5LP4K --sdc-file "E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\Temp/sbt_temp.sdc" --lib-file "C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ice40TH4K.lib" --effort_level std --out-sdc-file "E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\outputs\placer\i2c_master_controller_top_pl.sdc"
+starting placerrunning placerExecuting : C:\lscc\iCEcube2.2017.08\sbt_backend\bin\win32\opt\sbtplacer.exe --des-lib E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\netlist\oadb-i2c_master_controller_top --outdir E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\outputs\placer --device-file C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ICE40T04.dev --package SWG36 --deviceMarketName iCE5LP4K --sdc-file E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\Temp/sbt_temp.sdc --lib-file C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ice40TH4K.lib --effort_level std --out-sdc-file E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\outputs\placer\i2c_master_controller_top_pl.sdc
+Lattice Semiconductor Corporation  Placer
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 17:12:23
+
+I2004: Option and Settings Summary
+=============================================================
+Device file          - C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ICE40T04.dev
+Package              - SWG36
+Design database      - E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\netlist\oadb-i2c_master_controller_top
+SDC file             - E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\Temp/sbt_temp.sdc
+Output directory     - E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\outputs\placer
+Timing library       - C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ice40TH4K.lib
+Effort level         - std
+
+I2050: Starting reading inputs for placer
+=============================================================
+I2100: Reading design library: E:/MyStuff/dev/dadandson/z80/fpga/i2c/rd1139_i2c_master_controller/rd1139/project/ice40/verilog/ice40_verilog_Implmnt\sbt\netlist\oadb-i2c_master_controller_top/BFPGA_DESIGN_ep
+I2065: Reading device file : C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ICE40T04.dev
+I2051: Reading of inputs for placer completed successfully
+
+I2053: Starting placement of the design
+=============================================================
+
+Input Design Statistics
+    Number of LUTs      	:	261
+    Number of DFFs      	:	209
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	53
+    Number of RAMs      	:	0
+    Number of ROMs      	:	0
+    Number of IOs       	:	65
+    Number of GBIOs     	:	1
+    Number of GBs       	:	0
+    Number of WarmBoot  	:	0
+    Number of PLLs      	:	0
+    Number of I2Cs      	:	0
+    Number of SPIs      	:	0
+    Number of DSPs     	:	0
+    Number of SBIOODs     	:	0
+    Number of LEDDRVs     	:	0
+    Number of RGBDRVs     	:	0
+    Number of LEDDIPs     	:	0
+    Number of IRDRVs     	:	0
+    Number of LFOSCs     	:	0
+    Number of HFOSCs     	:	0
+
+
+Phase 1
+I2077: Start design legalization
+E2081: Feasibility check for IO Placement failed
+E2080: Design legalizer failed: Design can not be legalized
+E2055: Error while doing placement of the design
+I3013: Unable to fit the design into the selected device/package
+DEVICE IO Count:
+ (a) Regular IOs (SB_IO/SB_GB_IO) on the chip  - 18
+ (b) SPI IOs on the chip                       - 4
+ (c) Open Drain IOs (SB_IO_OD) on the chip     - 4
+                                               ------
+ Total IO Capacity of Chip (a + b + c)         - 26
+                                               ------
+DESIGN IO Count:
+ (a) Regular IOs(auto placement)            - 66
+ (b) SPI Constrained IOs in the design      - 0
+ (c) Open Drain IOs                         - 0
+                                            ------
+ Total IO count of the design (a + b + c)   - 66
+                                            ------
+Unrecognizable name i2c_master_controller_top
+2:14:52 PM

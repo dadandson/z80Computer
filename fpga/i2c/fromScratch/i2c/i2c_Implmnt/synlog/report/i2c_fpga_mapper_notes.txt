@@ -1,0 +1,15 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MT206 |Auto Constrain mode is enabled
+@N: MO106 :"e:\mystuff\dev\dadandson\z80\fpga\i2c\fromscratch\i2c\myi2c.v":217:24:217:48|Found ROM .delname. (in view: work.MyI2C(verilog)) with 23 words by 8 bits.
+@N: MO106 :"e:\mystuff\dev\dadandson\z80\fpga\i2c\fromscratch\i2c\myi2c.v":216:24:216:47|Found ROM .delname. (in view: work.MyI2C(verilog)) with 23 words by 3 bits.
+@N: MO106 :"e:\mystuff\dev\dadandson\z80\fpga\i2c\fromscratch\i2c\myi2c.v":216:24:216:47|Found ROM .delname. (in view: work.MyI2C(verilog)) with 23 words by 2 bits.
+@N: MO231 :"e:\mystuff\dev\dadandson\z80\fpga\i2c\fromscratch\i2c\myi2c.v":259:4:259:9|Found counter in view:work.MyI2C(verilog) instance trans_count[5:0] 
+@N: FX271 :"e:\mystuff\dev\dadandson\z80\fpga\i2c\fromscratch\i2c\myi2c.v":259:4:259:9|Replicating instance trans_count[0] (in view: work.MyI2C(verilog)) with 10 loads 1 time to improve timing.
+@N: FX1016 :"e:\mystuff\dev\dadandson\z80\fpga\i2c\fromscratch\i2c\myi2c.v":85:15:85:20|SB_GB_IO inserted on the port SBCLKi.
+@N: MT611 :|Automatically generated clock MyI2C|I2C2_SCLo_derived_clock is not used and is being removed
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: E:\MyStuff\dev\dadandson\z80\fpga\i2c\fromScratch\i2c\i2c_Implmnt\i2c.edf
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

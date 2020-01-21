@@ -1,0 +1,4 @@
+@E: CG496 :"E:\MyStuff\dev\dadandson\z80\fpga\i2c\fromScratch\i2c\MyI2C.v":135:4:135:6|Expecting valid net type or name
+@E: CG342 :"E:\MyStuff\dev\dadandson\z80\fpga\i2c\fromScratch\i2c\MyI2C.v":217:12:217:19|Expecting target variable, found wb_we_ix -- possible misspelling
+@E: CS187 :"E:\MyStuff\dev\dadandson\z80\fpga\i2c\fromScratch\i2c\MyI2C.v":381:0:381:8|Expecting endmodule
+

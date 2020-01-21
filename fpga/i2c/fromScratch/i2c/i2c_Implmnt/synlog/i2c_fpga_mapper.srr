@@ -1,0 +1,446 @@
+# Sun Jan 19 14:53:14 2020
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+@W: FA239 :"e:\mystuff\dev\dadandson\z80\fpga\i2c\fromscratch\i2c\myi2c.v":217:24:217:48|ROM ssm_SBDATi[7:0] (in view: work.MyI2C(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"e:\mystuff\dev\dadandson\z80\fpga\i2c\fromscratch\i2c\myi2c.v":216:24:216:47|ROM ssm_SBADRi[7:5] (in view: work.MyI2C(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"e:\mystuff\dev\dadandson\z80\fpga\i2c\fromscratch\i2c\myi2c.v":216:24:216:47|ROM ssm_SBADRi[3:2] (in view: work.MyI2C(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"e:\mystuff\dev\dadandson\z80\fpga\i2c\fromscratch\i2c\myi2c.v":217:24:217:48|ROM ssm_SBDATi[7:0] (in view: work.MyI2C(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"e:\mystuff\dev\dadandson\z80\fpga\i2c\fromscratch\i2c\myi2c.v":217:24:217:48|Found ROM .delname. (in view: work.MyI2C(verilog)) with 23 words by 8 bits.
+@W: FA239 :"e:\mystuff\dev\dadandson\z80\fpga\i2c\fromscratch\i2c\myi2c.v":216:24:216:47|ROM ssm_SBADRi[7:5] (in view: work.MyI2C(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"e:\mystuff\dev\dadandson\z80\fpga\i2c\fromscratch\i2c\myi2c.v":216:24:216:47|Found ROM .delname. (in view: work.MyI2C(verilog)) with 23 words by 3 bits.
+@W: FA239 :"e:\mystuff\dev\dadandson\z80\fpga\i2c\fromscratch\i2c\myi2c.v":216:24:216:47|ROM ssm_SBADRi[3:2] (in view: work.MyI2C(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"e:\mystuff\dev\dadandson\z80\fpga\i2c\fromscratch\i2c\myi2c.v":216:24:216:47|Found ROM .delname. (in view: work.MyI2C(verilog)) with 23 words by 2 bits.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+@N: MO231 :"e:\mystuff\dev\dadandson\z80\fpga\i2c\fromscratch\i2c\myi2c.v":259:4:259:9|Found counter in view:work.MyI2C(verilog) instance trans_count[5:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -1.30ns		  43 /        14
+@N: FX271 :"e:\mystuff\dev\dadandson\z80\fpga\i2c\fromscratch\i2c\myi2c.v":259:4:259:9|Replicating instance trans_count[0] (in view: work.MyI2C(verilog)) with 10 loads 1 time to improve timing.
+Timing driven replication report
+Added 1 Registers via timing driven replication
+Added 1 LUTs via timing driven replication
+
+
+
+@N: FX1016 :"e:\mystuff\dev\dadandson\z80\fpga\i2c\fromscratch\i2c\myi2c.v":85:15:85:20|SB_GB_IO inserted on the port SBCLKi.
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+@N: MT611 :|Automatically generated clock MyI2C|I2C2_SCLo_derived_clock is not used and is being removed
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 16 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+============================== Non-Gated/Non-Generated Clocks ===============================
+Clock Tree ID     Driving Element       Drive Element Type     Fanout     Sample Instance    
+---------------------------------------------------------------------------------------------
+@K:CKID0001       SBCLKi_ibuf_gb_io     SB_GB_IO               16         trans_count_fast[0]
+=============================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 133MB)
+
+Writing Analyst data base E:\MyStuff\dev\dadandson\z80\fpga\i2c\fromScratch\i2c\i2c_Implmnt\synwork\i2c_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Writing EDIF Netlist and constraint files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: E:\MyStuff\dev\dadandson\z80\fpga\i2c\fromScratch\i2c\i2c_Implmnt\i2c.edf
+L-2016.09L+ice40
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+@W: MT420 |Found inferred clock MyI2C|SBCLKi with period 5.68ns. Please declare a user-defined clock on object "p:SBCLKi"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sun Jan 19 14:53:15 2020
+#
+
+
+Top view:               MyI2C
+Requested Frequency:    176.2 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -1.002
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group                
+------------------------------------------------------------------------------------------------------------------------
+MyI2C|SBCLKi       176.2 MHz     149.7 MHz     5.677         6.679         -1.002     inferred     Autoconstr_clkgroup_0
+========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                      |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------
+Starting      Ending        |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------
+MyI2C|SBCLKi  MyI2C|SBCLKi  |  5.677       -1.002  |  No paths    -      |  No paths    -      |  No paths    -    
+===================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: MyI2C|SBCLKi
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                        Starting                                                      Arrival           
+Instance                Reference        Type         Pin     Net                     Time        Slack 
+                        Clock                                                                           
+--------------------------------------------------------------------------------------------------------
+trans_count[1]          MyI2C|SBCLKi     SB_DFFER     Q       trans_count[1]          0.796       -1.002
+IPDONE_i                MyI2C|SBCLKi     SB_DFFR      Q       IPDONE_c                0.796       -0.971
+trans_count[2]          MyI2C|SBCLKi     SB_DFFER     Q       trans_count[2]          0.796       -0.929
+trans_count_fast[0]     MyI2C|SBCLKi     SB_DFFER     Q       trans_count_fast[0]     0.796       -0.929
+start                   MyI2C|SBCLKi     SB_DFFR      Q       start                   0.796       -0.898
+trans_count[3]          MyI2C|SBCLKi     SB_DFFER     Q       trans_count[3]          0.796       -0.867
+trans_count[4]          MyI2C|SBCLKi     SB_DFFER     Q       trans_count[4]          0.796       -0.774
+load_d1                 MyI2C|SBCLKi     SB_DFFR      Q       load_d1                 0.796       0.958 
+pup                     MyI2C|SBCLKi     SB_DFFS      Q       pup                     0.796       0.958 
+trans_count[5]          MyI2C|SBCLKi     SB_DFFER     Q       trans_count[5]          0.796       0.958 
+========================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                        Starting                                                         Required           
+Instance                Reference        Type         Pin     Net                        Time         Slack 
+                        Clock                                                                               
+------------------------------------------------------------------------------------------------------------
+IPDONE_i                MyI2C|SBCLKi     SB_DFFR      D       IPDONE_i                   5.522        -1.002
+trans_count[0]          MyI2C|SBCLKi     SB_DFFER     D       trans_count_lm[0]          5.522        -0.929
+trans_count_fast[0]     MyI2C|SBCLKi     SB_DFFER     D       trans_count_lm_fast[0]     5.522        -0.929
+trans_count[0]          MyI2C|SBCLKi     SB_DFFER     E       N_24                       5.677        -0.919
+trans_count[1]          MyI2C|SBCLKi     SB_DFFER     E       N_24                       5.677        -0.919
+trans_count[2]          MyI2C|SBCLKi     SB_DFFER     E       N_24                       5.677        -0.919
+trans_count[3]          MyI2C|SBCLKi     SB_DFFER     E       N_24                       5.677        -0.919
+trans_count[4]          MyI2C|SBCLKi     SB_DFFER     E       N_24                       5.677        -0.919
+trans_count[5]          MyI2C|SBCLKi     SB_DFFER     E       N_24                       5.677        -0.919
+trans_count_fast[0]     MyI2C|SBCLKi     SB_DFFER     E       N_24                       5.677        -0.919
+============================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.677
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.522
+
+    - Propagation time:                      6.524
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.002
+
+    Number of logic level(s):                2
+    Starting point:                          trans_count[1] / Q
+    Ending point:                            IPDONE_i / D
+    The start point is clocked by            MyI2C|SBCLKi [rising] on pin C
+    The end   point is clocked by            MyI2C|SBCLKi [rising] on pin C
+
+Instance / Net                                Pin      Pin               Arrival     No. of    
+Name                             Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------
+trans_count[1]                   SB_DFFER     Q        Out     0.796     0.796       -         
+trans_count[1]                   Net          -        -       1.599     -           11        
+trans_count_fast_RNIOBG51[0]     SB_LUT4      I0       In      -         2.395       -         
+trans_count_fast_RNIOBG51[0]     SB_LUT4      O        Out     0.661     3.056       -         
+N_60                             Net          -        -       1.371     -           2         
+IPDONE_i_RNO                     SB_LUT4      I1       In      -         4.427       -         
+IPDONE_i_RNO                     SB_LUT4      O        Out     0.589     5.017       -         
+IPDONE_i                         Net          -        -       1.507     -           1         
+IPDONE_i                         SB_DFFR      D        In      -         6.524       -         
+===============================================================================================
+Total path delay (propagation time + setup) of 6.679 is 2.202(33.0%) logic and 4.477(67.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      5.677
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.522
+
+    - Propagation time:                      6.492
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.971
+
+    Number of logic level(s):                2
+    Starting point:                          IPDONE_i / Q
+    Ending point:                            IPDONE_i / D
+    The start point is clocked by            MyI2C|SBCLKi [rising] on pin C
+    The end   point is clocked by            MyI2C|SBCLKi [rising] on pin C
+
+Instance / Net                 Pin      Pin               Arrival     No. of    
+Name               Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------
+IPDONE_i           SB_DFFR     Q        Out     0.796     0.796       -         
+IPDONE_c           Net         -        -       1.599     -           13        
+IPDONE_i_RNO_0     SB_LUT4     I0       In      -         2.395       -         
+IPDONE_i_RNO_0     SB_LUT4     O        Out     0.661     3.056       -         
+IPDONE_i_RNO_0     Net         -        -       1.371     -           1         
+IPDONE_i_RNO       SB_LUT4     I2       In      -         4.427       -         
+IPDONE_i_RNO       SB_LUT4     O        Out     0.558     4.986       -         
+IPDONE_i           Net         -        -       1.507     -           1         
+IPDONE_i           SB_DFFR     D        In      -         6.492       -         
+================================================================================
+Total path delay (propagation time + setup) of 6.648 is 2.171(32.7%) logic and 4.477(67.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      5.677
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.522
+
+    - Propagation time:                      6.451
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.929
+
+    Number of logic level(s):                2
+    Starting point:                          trans_count[2] / Q
+    Ending point:                            IPDONE_i / D
+    The start point is clocked by            MyI2C|SBCLKi [rising] on pin C
+    The end   point is clocked by            MyI2C|SBCLKi [rising] on pin C
+
+Instance / Net                                Pin      Pin               Arrival     No. of    
+Name                             Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------
+trans_count[2]                   SB_DFFER     Q        Out     0.796     0.796       -         
+trans_count[2]                   Net          -        -       1.599     -           7         
+trans_count_fast_RNIOBG51[0]     SB_LUT4      I1       In      -         2.395       -         
+trans_count_fast_RNIOBG51[0]     SB_LUT4      O        Out     0.589     2.984       -         
+N_60                             Net          -        -       1.371     -           2         
+IPDONE_i_RNO                     SB_LUT4      I1       In      -         4.355       -         
+IPDONE_i_RNO                     SB_LUT4      O        Out     0.589     4.944       -         
+IPDONE_i                         Net          -        -       1.507     -           1         
+IPDONE_i                         SB_DFFR      D        In      -         6.451       -         
+===============================================================================================
+Total path delay (propagation time + setup) of 6.606 is 2.129(32.2%) logic and 4.477(67.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      5.677
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.522
+
+    - Propagation time:                      6.451
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.929
+
+    Number of logic level(s):                2
+    Starting point:                          trans_count_fast[0] / Q
+    Ending point:                            trans_count[0] / D
+    The start point is clocked by            MyI2C|SBCLKi [rising] on pin C
+    The end   point is clocked by            MyI2C|SBCLKi [rising] on pin C
+
+Instance / Net                               Pin      Pin               Arrival     No. of    
+Name                            Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------
+trans_count_fast[0]             SB_DFFER     Q        Out     0.796     0.796       -         
+trans_count_fast[0]             Net          -        -       1.599     -           4         
+trans_count_fast_RNI5VSA[0]     SB_LUT4      I1       In      -         2.395       -         
+trans_count_fast_RNI5VSA[0]     SB_LUT4      O        Out     0.589     2.984       -         
+trans_count_s[0]                Net          -        -       1.371     -           2         
+trans_count_RNO[0]              SB_LUT4      I1       In      -         4.355       -         
+trans_count_RNO[0]              SB_LUT4      O        Out     0.589     4.944       -         
+trans_count_lm[0]               Net          -        -       1.507     -           1         
+trans_count[0]                  SB_DFFER     D        In      -         6.451       -         
+==============================================================================================
+Total path delay (propagation time + setup) of 6.606 is 2.129(32.2%) logic and 4.477(67.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      5.677
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.522
+
+    - Propagation time:                      6.451
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.929
+
+    Number of logic level(s):                2
+    Starting point:                          trans_count_fast[0] / Q
+    Ending point:                            trans_count_fast[0] / D
+    The start point is clocked by            MyI2C|SBCLKi [rising] on pin C
+    The end   point is clocked by            MyI2C|SBCLKi [rising] on pin C
+
+Instance / Net                               Pin      Pin               Arrival     No. of    
+Name                            Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------
+trans_count_fast[0]             SB_DFFER     Q        Out     0.796     0.796       -         
+trans_count_fast[0]             Net          -        -       1.599     -           4         
+trans_count_fast_RNI5VSA[0]     SB_LUT4      I1       In      -         2.395       -         
+trans_count_fast_RNI5VSA[0]     SB_LUT4      O        Out     0.589     2.984       -         
+trans_count_s[0]                Net          -        -       1.371     -           2         
+trans_count_fast_RNO[0]         SB_LUT4      I1       In      -         4.355       -         
+trans_count_fast_RNO[0]         SB_LUT4      O        Out     0.589     4.944       -         
+trans_count_lm_fast[0]          Net          -        -       1.507     -           1         
+trans_count_fast[0]             SB_DFFER     D        In      -         6.451       -         
+==============================================================================================
+Total path delay (propagation time + setup) of 6.606 is 2.129(32.2%) logic and 4.477(67.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+---------------------------------------
+Resource Usage Report for MyI2C 
+
+Mapping to part: ice40up5kuwg30
+Cell usage:
+SB_CARRY        5 uses
+SB_DFFER        7 uses
+SB_DFFR         6 uses
+SB_DFFS         2 uses
+SB_I2C          1 use
+SB_LUT4         39 uses
+
+I/O ports: 13
+I/O primitives: 13
+SB_GB_IO       1 use
+SB_IO          12 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   15 (0%)
+Total load per clock:
+   MyI2C|SBCLKi: 1
+
+@S |Mapping Summary:
+Total  LUTs: 39 (0%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 39 = 39 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 27MB peak: 134MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Jan 19 14:53:15 2020
+
+###########################################################]

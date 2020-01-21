@@ -1,0 +1,35 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40UP5KUWG30 (Lattice)
+
+---------------------------------------------------------------------
+########   Utilization report for  Top level view:   MyI2C   ########
+=====================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     15                 100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block MyI2C:	15 (20.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       39                 100 %                
+CARRYS     5                  100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block MyI2C:	44 (58.67 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     13                 100 %                
+=================================================
+Total IO PADS in the block MyI2C:	13 (17.33 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

@@ -1,0 +1,68 @@
+# Design Explorer: Shortcut to "E:\MyStuff\dev\dadandson\z80\fpga\i2c\fromScratch\i2c\aldec\i2c-sim\i2c-sim.aws" design added.
+# Adding file E:\MyStuff\dev\dadandson\z80\fpga\i2c\fromScratch\i2c\MyI2C.v ... Done
+alog -O2 -sve -msg 5 -sv2k12 -work i2c-sim $dsn/../../MyI2C.v
+# Pass 1. Scanning modules hierarchy.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Unit top modules: MyI2C.
+# $root top modules: MyI2C.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 -L ovi_ice -L ice +access +r MyI2C
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.1 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 1.0 [s]
+# SLP: Finished : 1.1 [s]
+# SLP: 0 primitives and 460 (100.00%) other processes in SLP
+# SLP: 596 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 1.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6280 kB (elbread=1280 elab2=4853 kernel=146 sdf=0)
+# KERNEL: ASDB file was created in location E:\MyStuff\dev\dadandson\z80\fpga\i2c\fromScratch\i2c\aldec\i2c-sim\src\wave.asdb
+#  2:57 PM, Sunday, January 19, 2020
+#  Simulation has been initialized
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+endsim
+# VSIM: Simulation has finished.
+# Error: You do not have valid license to run C Code Debug.
+# Error: Contact Aldec for ordering information sales@aldec.com
+alog -O2 -sve -msg 5 -v2k5 -work i2c-sim $dsn/../../MyI2C.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: MyI2C.
+# $root top modules: MyI2C.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# Error: You do not have valid license to run C Code Debug.
+# Error: Contact Aldec for ordering information sales@aldec.com

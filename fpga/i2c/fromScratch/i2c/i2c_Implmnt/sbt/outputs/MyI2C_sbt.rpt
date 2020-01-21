@@ -1,0 +1,127 @@
+* ******************************************************************************
+
+* iCEcube Report
+
+* Version:            2017.08.27940
+
+* Build Date:         Sep 11 2017 16:52:36
+
+* File Generated:     Jan 19 2020 14:54:04
+
+* Purpose:            General info of design implementation
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Synthesis/Placement Summary:
+----------------------------
+    Status:  Successful
+    Runtime: 0 seconds
+
+Device Info:
+------------
+    Device Family: iCE40UP
+    Device:        iCE40UP5K
+    Package:       UWG30
+
+Design statistics:
+------------------
+    FFs:                  15
+    LUTs:                 40
+    RAMs:                 0
+    IOBs:                 13
+    GBs:                  1
+    PLLs:                 0
+    Warm Boots:           0
+    SPIs:                 0
+    I2Cs:                 1
+    HFOSCs:               0
+    LFOSCs:               0
+    RGBA_DRVs:            0
+    LEDDA_IPs:            0
+    DSPs:                 0
+    SPRAMs:               0
+    FILTER_50NSs:         1
+
+Logic Resource Utilization:
+---------------------------
+    Total Logic Cells: 40/5280
+        Combinational Logic Cells: 25       out of   5280      0.473485%
+        Sequential Logic Cells:    15       out of   5280      0.284091%
+        Logic Tiles:               12       out of   660       1.81818%
+    Registers: 
+        Logic Registers:           15       out of   5280      0.284091%
+        IO Registers:              0        out of   480       0
+    Block RAMs:                    0        out of   30        0%
+    Warm Boots:                    0        out of   1         0%
+    SPIs:                          0        out of   2         0%
+    I2Cs:                          1        out of   2         50%
+    HFOSCs:                        0        out of   1         0%
+    LFOSCs:                        0        out of   1         0%
+    RGBA_DRVs:                     0        out of   1         0%
+    LEDDA_IPs:                     0        out of   1         0%
+    DSPs:                          0        out of   8         0%
+    SPRAMs:                        0        out of   4         0%
+    FILTER_50NSs:                  1        out of   2         50%
+    Pins:
+        Input Pins:                5        out of   21        23.8095%
+        Output Pins:               6        out of   21        28.5714%
+        InOut Pins:                2        out of   21        9.52381%
+    Global Buffers:                1        out of   8         12.5%
+    PLLs:                          0        out of   1         0%
+
+IO Bank Utilization:
+--------------------
+    Bank 3: 0        out of   0         0%
+    Bank 1: 0        out of   0         0%
+    Bank 0: 4        out of   7         57.1429%
+    Bank 2: 9        out of   14        64.2857%
+
+Detailed I/O Info:
+------------------
+    Input Pins: 
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function                                Signal Name  
+    ----------  ---------  -----------  -------  -------  -----------                                -----------  
+    B1          Input      SB_LVCMOS    No       2        Simple Input                               SBWRi        
+    C3          Input      SB_LVCMOS    No       2        Simple Input                               RST          
+    D3          Input      SB_LVCMOS    No       2        Simple Input                               SBSTBi       
+    E3          Input      SB_LVCMOS    No       2        Simple Input                               IPLOAD       
+    F5          Input      SB_LVCMOS    No       2        Simple Input                               SBCLKi       
+
+    Output Pins: 
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function                                Signal Name  
+    ----------  ---------  -----------  -------  -------  -----------                                -----------  
+    A1          Output     SB_LVCMOS    No       0        Simple Output                              I2CPIRQ[1]   
+    A2          Output     SB_LVCMOS    No       0        Simple Output                              I2CPIRQ[0]   
+    C1          Output     SB_LVCMOS    No       2        Simple Output                              I2CPWKUP[0]  
+    D1          Output     SB_LVCMOS    No       2        Simple Output                              I2CPWKUP[1]  
+    F1          Output     SB_LVCMOS    No       2        Simple Output                              IPDONE       
+    F2          Output     SB_LVCMOS    No       2        Simple Output                              SBACKo       
+
+    Inoutput Pins: 
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function                                Signal Name  
+    ----------  ---------  -----------  -------  -------  -----------                                -----------  
+    A4          InOut      SB_LVCMOS    No       0        Simple Input Output Tristatable by Enable  I2C2_SCL     
+    B3          InOut      SB_LVCMOS    No       0        Simple Input Output Tristatable by Enable  I2C2_SDA     
+
+Detailed Global Buffer Info:
+----------------------------
+    Buffer Number  IO Bank  Driven By  Fanout  Signal Name 
+    -------------  -------  ---------  ------  ----------- 
+    1              2        IO         16      SBCLKi_c_g  
+
+
+Router Summary:
+---------------
+    Status:  Successful
+    Runtime: 5 seconds
+
+Routing Resource Utilization:
+-----------------------------
+              Local line of tile      334 out of 110555      0.302112%
+                          Span 4       36 out of  23008      0.156467%
+                         Span 12       61 out of   4464      1.36649%
+                  Global network        1 out of      8      12.5%
+      Vertical Inter-LUT Connect        5 out of   4620      0.108225%
+

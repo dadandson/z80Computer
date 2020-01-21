@@ -1,0 +1,311 @@
+--------------------------------------------------------------------------------
+Lattice Synthesis Timing Report, Version  
+Sun Jan 19 13:29:14 2020
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Design:     i2c_master_controller_top
+Constraint file: i2c_master_controller_top_temp_lse.sdc 
+Report level:    verbose report, limited to 3 items per constraint
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Constraint: create_clock -period 5.000000 -name clk500 [get_nets i_clk_c]
+            344 items scored, 344 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error:  The following path violates requirements by 21.619ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         SB_DFFR    C              \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/count_i0  (from i_clk_c +)
+   Destination:    SB_DFFR    D              \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/count_i15  (to i_clk_c +)
+
+   Delay:                  26.486ns  (26.0% logic, 74.0% route), 17 logic levels.
+
+ Constraint Details:
+
+     26.486ns data_path \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/count_i0 to \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/count_i15 violates
+      5.000ns delay constraint less
+      0.133ns L_S requirement (totaling 4.867ns) by 21.619ns
+
+ Path Details: \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/count_i0 to \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/count_i15
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.367              C to Q              \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/count_i0 (from i_clk_c)
+Route         3   e 1.339                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/count[0]
+LUT4        ---     0.408             I0 to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/add_4_add_4_2
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/n2754
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/add_4_add_4_3
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/n2755
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/add_4_add_4_4
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/n2756
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/add_4_add_4_5
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/n2757
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/add_4_add_4_6
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/n2758
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/add_4_add_4_7
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/n2759
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/add_4_add_4_8
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/n2760
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/add_4_add_4_9
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/n2761
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/add_4_add_4_10
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/n2762
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/add_4_add_4_11
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/n2763
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/add_4_add_4_12
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/n2764
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/add_4_add_4_13
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/n2765
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/add_4_add_4_14
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/n2766
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/add_4_add_4_15
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/n2767
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/add_4_add_4_16
+Route         1   e 1.020                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/n2768
+LUT4        ---     0.408             I3 to O              \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/add_4_add_4_17_lut
+Route         1   e 1.020                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/count_15__N_149[15]
+                  --------
+                   26.486  (26.0% logic, 74.0% route), 17 logic levels.
+
+
+Error:  The following path violates requirements by 21.619ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         SB_DFFR    C              \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/count_i0  (from i_clk_c +)
+   Destination:    SB_DFFR    D              \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/count_i15  (to i_clk_c +)
+
+   Delay:                  26.486ns  (26.0% logic, 74.0% route), 17 logic levels.
+
+ Constraint Details:
+
+     26.486ns data_path \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/count_i0 to \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/count_i15 violates
+      5.000ns delay constraint less
+      0.133ns L_S requirement (totaling 4.867ns) by 21.619ns
+
+ Path Details: \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/count_i0 to \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/count_i15
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.367              C to Q              \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/count_i0 (from i_clk_c)
+Route         3   e 1.339                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/count[0]
+LUT4        ---     0.408             I0 to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/add_4_add_4_2
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/n2769
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/add_4_add_4_3
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/n2770
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/add_4_add_4_4
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/n2771
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/add_4_add_4_5
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/n2772
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/add_4_add_4_6
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/n2773
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/add_4_add_4_7
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/n2774
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/add_4_add_4_8
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/n2775
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/add_4_add_4_9
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/n2776
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/add_4_add_4_10
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/n2777
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/add_4_add_4_11
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/n2778
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/add_4_add_4_12
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/n2779
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/add_4_add_4_13
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/n2780
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/add_4_add_4_14
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/n2781
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/add_4_add_4_15
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/n2782
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/add_4_add_4_16
+Route         1   e 1.020                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/n2783
+LUT4        ---     0.408             I3 to O              \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/add_4_add_4_17_lut
+Route         1   e 1.020                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/stop_gen/delay_gen/count_15__N_149[15]
+                  --------
+                   26.486  (26.0% logic, 74.0% route), 17 logic levels.
+
+
+Error:  The following path violates requirements by 20.191ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         SB_DFFR    C              \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/count_i0  (from i_clk_c +)
+   Destination:    SB_DFFR    D              \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/count_i14  (to i_clk_c +)
+
+   Delay:                  25.058ns  (25.9% logic, 74.1% route), 16 logic levels.
+
+ Constraint Details:
+
+     25.058ns data_path \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/count_i0 to \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/count_i14 violates
+      5.000ns delay constraint less
+      0.133ns L_S requirement (totaling 4.867ns) by 20.191ns
+
+ Path Details: \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/count_i0 to \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/count_i14
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.367              C to Q              \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/count_i0 (from i_clk_c)
+Route         3   e 1.339                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/count[0]
+LUT4        ---     0.408             I0 to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/add_4_add_4_2
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/n2754
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/add_4_add_4_3
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/n2755
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/add_4_add_4_4
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/n2756
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/add_4_add_4_5
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/n2757
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/add_4_add_4_6
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/n2758
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/add_4_add_4_7
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/n2759
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/add_4_add_4_8
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/n2760
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/add_4_add_4_9
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/n2761
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/add_4_add_4_10
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/n2762
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/add_4_add_4_11
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/n2763
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/add_4_add_4_12
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/n2764
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/add_4_add_4_13
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/n2765
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/add_4_add_4_14
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/n2766
+LUT4        ---     0.408             CI to CO             \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/add_4_add_4_15
+Route         2   e 1.158                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/n2767
+LUT4        ---     0.408             I3 to O              \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/add_4_add_4_16_lut
+Route         1   e 1.020                                  \u_i2c_master_controller/i2cbus_cntrl_fsm/start_gen/delay_gen/count_15__N_149[14]
+                  --------
+                   25.058  (25.9% logic, 74.1% route), 16 logic levels.
+
+Warning: 26.619 ns is the maximum delay for this constraint.
+
+
+
+================================================================================
+Constraint:  create_clock -period 5.000 -name i2c_master_controller_top|i_clk [ get_nets i_clk_c ]
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk500 [get_nets i_clk_c]               |     5.000 ns|    26.619 ns|    17 *
+                                        |             |             |
+ create_clock -period 5.000 -name       |             |             |
+i2c_master_controller_top|i_clk [       |             |             |
+get_nets i_clk_c ]                      |            -|            -|     0  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+1 constraints not met.
+
+--------------------------------------------------------------------------------
+Critical Nets                           |   Loads|  Errors| % of total
+--------------------------------------------------------------------------------
+\u_i2c_master_controller/i2cbus_cntrl_fs|        |        |
+m/start_gen/delay_gen/delay_done_N_181  |       3|      78|     22.67%
+                                        |        |        |
+\u_i2c_master_controller/i2cbus_cntrl_fs|        |        |
+m/stop_gen/delay_gen/delay_done_N_181   |       3|      78|     22.67%
+                                        |        |        |
+\u_i2c_master_controller/i2cbus_cntrl_fs|        |        |
+m/start_gen/delay_gen/n23               |       1|      66|     19.19%
+                                        |        |        |
+\u_i2c_master_controller/i2cbus_cntrl_fs|        |        |
+m/stop_gen/delay_gen/n23                |       1|      66|     19.19%
+                                        |        |        |
+\u_i2c_master_controller/i2cbus_cntrl_fs|        |        |
+m/start_gen/delay_gen/n20               |       1|      64|     18.60%
+                                        |        |        |
+\u_i2c_master_controller/i2cbus_cntrl_fs|        |        |
+m/stop_gen/delay_gen/n20                |       1|      64|     18.60%
+                                        |        |        |
+\u_i2c_master_controller/i2cbus_cntrl_fs|        |        |
+m/start_gen/delay_gen/n899              |      15|      60|     17.44%
+                                        |        |        |
+\u_i2c_master_controller/i2cbus_cntrl_fs|        |        |
+m/stop_gen/delay_gen/n930               |      15|      60|     17.44%
+                                        |        |        |
+\u_i2c_master_controller/i2cbus_cntrl_fs|        |        |
+m/start_gen/delay_gen/n2761             |       2|      58|     16.86%
+                                        |        |        |
+\u_i2c_master_controller/i2cbus_cntrl_fs|        |        |
+m/stop_gen/delay_gen/n2776              |       2|      58|     16.86%
+                                        |        |        |
+\u_i2c_master_controller/i2cbus_cntrl_fs|        |        |
+m/start_gen/delay_gen/n2760             |       2|      57|     16.57%
+                                        |        |        |
+\u_i2c_master_controller/i2cbus_cntrl_fs|        |        |
+m/start_gen/delay_gen/n2762             |       2|      57|     16.57%
+                                        |        |        |
+\u_i2c_master_controller/i2cbus_cntrl_fs|        |        |
+m/stop_gen/delay_gen/n2775              |       2|      57|     16.57%
+                                        |        |        |
+\u_i2c_master_controller/i2cbus_cntrl_fs|        |        |
+m/stop_gen/delay_gen/n2777              |       2|      57|     16.57%
+                                        |        |        |
+\u_i2c_master_controller/i2cbus_cntrl_fs|        |        |
+m/start_gen/delay_gen/n2759             |       2|      54|     15.70%
+                                        |        |        |
+\u_i2c_master_controller/i2cbus_cntrl_fs|        |        |
+m/start_gen/delay_gen/n2763             |       2|      54|     15.70%
+                                        |        |        |
+\u_i2c_master_controller/i2cbus_cntrl_fs|        |        |
+m/stop_gen/delay_gen/n2774              |       2|      54|     15.70%
+                                        |        |        |
+\u_i2c_master_controller/i2cbus_cntrl_fs|        |        |
+m/stop_gen/delay_gen/n2778              |       2|      54|     15.70%
+                                        |        |        |
+\u_i2c_master_controller/i2cbus_cntrl_fs|        |        |
+m/start_gen/delay_gen/n2758             |       2|      49|     14.24%
+                                        |        |        |
+\u_i2c_master_controller/i2cbus_cntrl_fs|        |        |
+m/start_gen/delay_gen/n2764             |       2|      49|     14.24%
+                                        |        |        |
+\u_i2c_master_controller/i2cbus_cntrl_fs|        |        |
+m/stop_gen/delay_gen/n2773              |       2|      49|     14.24%
+                                        |        |        |
+\u_i2c_master_controller/i2cbus_cntrl_fs|        |        |
+m/stop_gen/delay_gen/n2779              |       2|      49|     14.24%
+                                        |        |        |
+\u_i2c_master_controller/i2cbus_cntrl_fs|        |        |
+m/start_gen/delay_gen/n2757             |       2|      42|     12.21%
+                                        |        |        |
+\u_i2c_master_controller/i2cbus_cntrl_fs|        |        |
+m/start_gen/delay_gen/n2765             |       2|      42|     12.21%
+                                        |        |        |
+\u_i2c_master_controller/i2cbus_cntrl_fs|        |        |
+m/stop_gen/delay_gen/n2772              |       2|      42|     12.21%
+                                        |        |        |
+\u_i2c_master_controller/i2cbus_cntrl_fs|        |        |
+m/stop_gen/delay_gen/n2780              |       2|      42|     12.21%
+                                        |        |        |
+--------------------------------------------------------------------------------
+
+
+Timing summary:
+---------------
+
+Timing errors: 344  Score: 2537984
+
+Constraints cover  4204 paths, 486 nets, and 1345 connections (85.7% coverage)
+
+
+Peak memory: 39665664 bytes, TRCE: 241664 bytes, DLYMAN: 0 bytes
+CPU_TIME_REPORT: 0 secs 

@@ -1,0 +1,12 @@
+@P:  Worst Slack : -1.002
+@P:  MyI2C|SBCLKi - Estimated Frequency : 149.7 MHz
+@P:  MyI2C|SBCLKi - Requested Frequency : 176.2 MHz
+@P:  MyI2C|SBCLKi - Estimated Period : 6.679
+@P:  MyI2C|SBCLKi - Requested Period : 5.677
+@P:  MyI2C|SBCLKi - Slack : -1.002
+@P: MyI2C Part : ice40up5kuwg30
+@P: MyI2C I/O primitives : 13
+@P: MyI2C I/O Register bits : 0
+@P: MyI2C Register bits (Non I/O) : 15 (0%)
+@P: MyI2C Total Luts : 39 (0%)
+@P:  CPU Time : 0h:00m:00s

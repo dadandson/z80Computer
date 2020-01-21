@@ -1,0 +1,75 @@
+set_location IN_MUX_bfv_2_29_0_ 2 29 0 #ICE_CARRY_IN_MUX
+set_location load_d2_THRU_LUT4_0 3 27 1 #SB_LUT4
+set_location trans_count_RNIH7T71[2] 1 29 4 #SB_LUT4
+set_location start_RNIPOMK2 3 28 2 #SB_LUT4
+set_location SB_I2C_INST_LT_RNO_4 1 30 4 #SB_LUT4
+set_location trans_count_cry_c[1] 2 29 1 #SB_CARRY
+set_location strobe 1 26 4 #SB_DFFR
+set_location start 3 27 3 #SB_DFFR
+set_location trans_count_fast_RNI5VSA[0] 2 29 0 #SB_LUT4
+set_location trans_count_RNIFH7N1[0] 1 29 7 #SB_LUT4
+set_location SB_I2C_INST_LT_RNO_2 1 30 0 #SB_LUT4
+set_location trans_count_RNO[4] 2 29 4 #SB_LUT4
+set_location trans_count_RNIB1T71[0] 1 28 4 #SB_LUT4
+set_location trans_count[5] 2 29 5 #SB_DFFER
+set_location load_d2 3 27 1 #SB_DFFR
+set_location trans_count_fast_RNIOBG51_0[0] 3 28 0 #SB_LUT4
+set_location sb_idle 1 26 0 #SB_DFFS
+set_location run 1 26 3 #SB_DFFR
+set_location SB_I2C_INST_LT_RNO_0 1 27 2 #SB_LUT4
+set_location trans_count_fast_RNIOBG51[0] 2 30 4 #SB_LUT4
+set_location strobe_RNO 1 26 4 #SB_LUT4
+set_location IPDONE_i_RNO 1 29 6 #SB_LUT4
+set_location trans_count_RNO[3] 2 29 3 #SB_LUT4
+set_location pup_RNO 3 27 5 #SB_LUT4
+set_location trans_count[1] 2 29 1 #SB_DFFER
+set_location SB_I2C_INST_LT_RNO_7 1 30 2 #SB_LUT4
+set_location SBACKo_obuf_RNO 10 11 4 #SB_LUT4
+set_location IPDONE_i_RNIMI422 1 30 5 #SB_LUT4
+set_location trans_count_cry_c[2] 2 29 2 #SB_CARRY
+set_location trans_count_RNO[1] 2 29 1 #SB_LUT4
+set_location trans_count_RNI0P4V2[0] 1 30 3 #SB_LUT4
+set_location trans_count[3] 2 29 3 #SB_DFFER
+set_location SB_I2C_INST_LT_RNO_5 1 29 5 #SB_LUT4
+set_location SB_I2C_INST_LT_RNO 1 30 7 #SB_LUT4
+set_location trans_count_cry_c[0] 2 29 0 #SB_CARRY
+set_location trans_count[4] 2 29 4 #SB_DFFER
+set_location pup 3 27 5 #SB_DFFS
+set_location load_d1 3 27 6 #SB_DFFR
+set_location SB_I2C_INST_LT_RNIJVJA1 3 28 1 #SB_LUT4
+set_location SB_I2C_INST_LT_RNO_3 1 30 1 #SB_LUT4
+set_location GND -1 -1 -1 #GND
+set_location trans_count_RNO[5] 2 29 5 #SB_LUT4
+set_location start_RNO 3 27 3 #SB_LUT4
+set_location SB_I2C_INST_LT_RNO_8 1 28 0 #SB_LUT4
+set_location trans_count_fast_RNO[0] 2 28 3 #SB_LUT4
+set_location trans_count_RNO[2] 2 29 2 #SB_LUT4
+set_location SB_I2C_INST_LT_RNO_1 1 27 1 #SB_LUT4
+set_location IPDONE_i 1 29 6 #SB_DFFR
+set_location trans_count_fast[0] 2 28 3 #SB_DFFER
+set_location trans_count_cry_c[4] 2 29 4 #SB_CARRY
+set_location trans_count_RNINGJQ[3] 1 29 3 #SB_LUT4
+set_location trans_count[0] 2 28 7 #SB_DFFER
+set_location sb_idle_RNO 1 26 0 #SB_LUT4
+set_location run_RNO 1 26 3 #SB_LUT4
+set_location SB_I2C_INST_LT_RNO_6 1 30 6 #SB_LUT4
+set_location trans_count_cry_c[3] 2 29 3 #SB_CARRY
+set_location trans_count_RNO[0] 2 28 7 #SB_LUT4
+set_location load_d1_RNO 3 27 6 #SB_LUT4
+set_location trans_count_RNI4GAF[5] 2 30 3 #SB_LUT4
+set_location trans_count[2] 2 29 2 #SB_DFFER
+set_location IPDONE_i_RNO_0 3 29 1 #SB_LUT4
+set_location IPDONE_i_RNI98H42 1 28 5 #SB_LUT4
+set_io SBSTBi D3
+set_io SBCLKi F5
+set_io SBWRi B1
+set_io IPDONE F1
+set_io I2CPIRQ[0] A2
+set_io I2C2_SCL A4
+set_io SBACKo F2
+set_io RST C3
+set_io I2CPWKUP[1] D1
+set_io I2CPIRQ[1] A1
+set_io I2C2_SDA B3
+set_io IPLOAD E3
+set_io I2CPWKUP[0] C1

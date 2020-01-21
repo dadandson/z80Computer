@@ -1,0 +1,76 @@
+set_location IPDONE_i_RNI98H42 1 28 5 # SB_LUT4 (LogicCell: IPDONE_i_RNI98H42_LC_0)
+set_location IPDONE_i_RNIMI422 1 30 5 # SB_LUT4 (LogicCell: IPDONE_i_RNIMI422_LC_1)
+set_location IPDONE_i_RNO 1 29 6 # SB_LUT4 (LogicCell: IPDONE_i_LC_2)
+set_location IPDONE_i 1 29 6 # SB_DFFR (LogicCell: IPDONE_i_LC_2)
+set_location IPDONE_i_RNO_0 3 29 1 # SB_LUT4 (LogicCell: IPDONE_i_RNO_0_LC_3)
+set_location SBACKo_obuf_RNO 10 11 4 # SB_LUT4 (LogicCell: SBACKo_obuf_RNO_LC_4)
+set_location SB_I2C_INST_LT_RNIJVJA1 3 28 1 # SB_LUT4 (LogicCell: SB_I2C_INST_LT_RNIJVJA1_LC_5)
+set_location SB_I2C_INST_LT_RNO 1 30 7 # SB_LUT4 (LogicCell: SB_I2C_INST_LT_RNO_LC_6)
+set_location SB_I2C_INST_LT_RNO_0 1 27 2 # SB_LUT4 (LogicCell: SB_I2C_INST_LT_RNO_0_LC_7)
+set_location SB_I2C_INST_LT_RNO_1 1 27 1 # SB_LUT4 (LogicCell: SB_I2C_INST_LT_RNO_1_LC_8)
+set_location SB_I2C_INST_LT_RNO_2 1 30 0 # SB_LUT4 (LogicCell: SB_I2C_INST_LT_RNO_2_LC_9)
+set_location SB_I2C_INST_LT_RNO_3 1 30 1 # SB_LUT4 (LogicCell: SB_I2C_INST_LT_RNO_3_LC_10)
+set_location SB_I2C_INST_LT_RNO_4 1 30 4 # SB_LUT4 (LogicCell: SB_I2C_INST_LT_RNO_4_LC_11)
+set_location SB_I2C_INST_LT_RNO_5 1 29 5 # SB_LUT4 (LogicCell: SB_I2C_INST_LT_RNO_5_LC_12)
+set_location SB_I2C_INST_LT_RNO_6 1 30 6 # SB_LUT4 (LogicCell: SB_I2C_INST_LT_RNO_6_LC_13)
+set_location SB_I2C_INST_LT_RNO_7 1 30 2 # SB_LUT4 (LogicCell: SB_I2C_INST_LT_RNO_7_LC_14)
+set_location SB_I2C_INST_LT_RNO_8 1 28 0 # SB_LUT4 (LogicCell: SB_I2C_INST_LT_RNO_8_LC_15)
+set_location load_d1_RNO 3 27 6 # SB_LUT4 (LogicCell: load_d1_LC_16)
+set_location load_d1 3 27 6 # SB_DFFR (LogicCell: load_d1_LC_16)
+set_location pup_RNO 3 27 5 # SB_LUT4 (LogicCell: pup_LC_17)
+set_location pup 3 27 5 # SB_DFFS (LogicCell: pup_LC_17)
+set_location run_RNO 1 26 3 # SB_LUT4 (LogicCell: run_LC_18)
+set_location run 1 26 3 # SB_DFFR (LogicCell: run_LC_18)
+set_location sb_idle_RNO 1 26 0 # SB_LUT4 (LogicCell: sb_idle_LC_19)
+set_location sb_idle 1 26 0 # SB_DFFS (LogicCell: sb_idle_LC_19)
+set_location start_RNIPOMK2 3 28 2 # SB_LUT4 (LogicCell: start_RNIPOMK2_LC_20)
+set_location start_RNO 3 27 3 # SB_LUT4 (LogicCell: start_LC_21)
+set_location start 3 27 3 # SB_DFFR (LogicCell: start_LC_21)
+set_location strobe_RNO 1 26 4 # SB_LUT4 (LogicCell: strobe_LC_22)
+set_location strobe 1 26 4 # SB_DFFR (LogicCell: strobe_LC_22)
+set_location trans_count_RNI0P4V2[0] 1 30 3 # SB_LUT4 (LogicCell: trans_count_RNI0P4V2[0]_LC_23)
+set_location trans_count_RNI4GAF[5] 2 30 3 # SB_LUT4 (LogicCell: trans_count_RNI4GAF[5]_LC_24)
+set_location trans_count_RNIB1T71[0] 1 28 4 # SB_LUT4 (LogicCell: trans_count_RNIB1T71[0]_LC_25)
+set_location trans_count_RNIFH7N1[0] 1 29 7 # SB_LUT4 (LogicCell: trans_count_RNIFH7N1[0]_LC_26)
+set_location trans_count_RNIH7T71[2] 1 29 4 # SB_LUT4 (LogicCell: trans_count_RNIH7T71[2]_LC_27)
+set_location trans_count_RNINGJQ[3] 1 29 3 # SB_LUT4 (LogicCell: trans_count_RNINGJQ[3]_LC_28)
+set_location trans_count_RNO[0] 2 28 7 # SB_LUT4 (LogicCell: trans_count[0]_LC_29)
+set_location trans_count[0] 2 28 7 # SB_DFFER (LogicCell: trans_count[0]_LC_29)
+set_location trans_count_RNO[1] 2 29 1 # SB_LUT4 (LogicCell: trans_count[1]_LC_30)
+set_location trans_count[1] 2 29 1 # SB_DFFER (LogicCell: trans_count[1]_LC_30)
+set_location trans_count_cry_c[1] 2 29 1 # SB_CARRY (LogicCell: trans_count[1]_LC_30)
+set_location trans_count_RNO[2] 2 29 2 # SB_LUT4 (LogicCell: trans_count[2]_LC_31)
+set_location trans_count[2] 2 29 2 # SB_DFFER (LogicCell: trans_count[2]_LC_31)
+set_location trans_count_cry_c[2] 2 29 2 # SB_CARRY (LogicCell: trans_count[2]_LC_31)
+set_location trans_count_RNO[3] 2 29 3 # SB_LUT4 (LogicCell: trans_count[3]_LC_32)
+set_location trans_count[3] 2 29 3 # SB_DFFER (LogicCell: trans_count[3]_LC_32)
+set_location trans_count_cry_c[3] 2 29 3 # SB_CARRY (LogicCell: trans_count[3]_LC_32)
+set_location trans_count_RNO[4] 2 29 4 # SB_LUT4 (LogicCell: trans_count[4]_LC_33)
+set_location trans_count[4] 2 29 4 # SB_DFFER (LogicCell: trans_count[4]_LC_33)
+set_location trans_count_cry_c[4] 2 29 4 # SB_CARRY (LogicCell: trans_count[4]_LC_33)
+set_location trans_count_RNO[5] 2 29 5 # SB_LUT4 (LogicCell: trans_count[5]_LC_34)
+set_location trans_count[5] 2 29 5 # SB_DFFER (LogicCell: trans_count[5]_LC_34)
+set_location trans_count_fast_RNI5VSA[0] 2 29 0 # SB_LUT4 (LogicCell: trans_count_fast_RNI5VSA[0]_LC_35)
+set_location trans_count_cry_c[0] 2 29 0 # SB_CARRY (LogicCell: trans_count_fast_RNI5VSA[0]_LC_35)
+set_location trans_count_fast_RNIOBG51[0] 2 30 4 # SB_LUT4 (LogicCell: trans_count_fast_RNIOBG51[0]_LC_36)
+set_location trans_count_fast_RNIOBG51_0[0] 3 28 0 # SB_LUT4 (LogicCell: trans_count_fast_RNIOBG51_0[0]_LC_37)
+set_location trans_count_fast_RNO[0] 2 28 3 # SB_LUT4 (LogicCell: trans_count_fast[0]_LC_38)
+set_location trans_count_fast[0] 2 28 3 # SB_DFFER (LogicCell: trans_count_fast[0]_LC_38)
+set_location load_d2_THRU_LUT4_0 3 27 1 # SB_LUT4 (LogicCell: load_d2_LC_39)
+set_location load_d2 3 27 1 # SB_DFFR (LogicCell: load_d2_LC_39)
+set_location GND -1 -1 -1 # GND
+set_io I2C2_SCL_iobuf 12 31 0 # ICE_IO
+set_io I2C2_SDA_iobuf 12 31 1 # ICE_IO
+set_io I2CPIRQ_obuf[0] 19 31 0 # ICE_IO
+set_io I2CPIRQ_obuf[1] 19 31 1 # ICE_IO
+set_io I2CPWKUP_obuf[0] 24 0 1 # ICE_IO
+set_io I2CPWKUP_obuf[1] 24 0 0 # ICE_IO
+set_io IPDONE_obuf 23 0 0 # ICE_IO
+set_io IPLOAD_ibuf 13 0 1 # ICE_IO
+set_io RST_ibuf 12 0 0 # ICE_IO
+set_io SBACKo_obuf 19 0 1 # ICE_IO
+set_io SBCLKi_ibuf_gb_io 6 0 1 # ICE_GB_IO
+set_io SBSTBi_ibuf 13 0 0 # ICE_IO
+set_io SBWRi_ibuf 19 0 0 # ICE_IO
+set_location SB_I2C_INST_LT 0 31 0 # SB_I2C
+set_location filterInst_1 25 31 3 # SB_FILTER_50NS

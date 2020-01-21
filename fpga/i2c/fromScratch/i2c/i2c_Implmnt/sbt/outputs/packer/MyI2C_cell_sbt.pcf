@@ -1,0 +1,77 @@
+ble_pack sb_idle_LC_1_26_0 { sb_idle_RNO, sb_idle }
+ble_pack run_LC_1_26_3 { run_RNO, run }
+ble_pack strobe_LC_1_26_4 { strobe_RNO, strobe }
+clb_pack LT_1_26 { sb_idle_LC_1_26_0, run_LC_1_26_3, strobe_LC_1_26_4 }
+set_location LT_1_26 1 26
+ble_pack SB_I2C_INST_LT_RNO_1_LC_1_27_1 { SB_I2C_INST_LT_RNO_1 }
+ble_pack SB_I2C_INST_LT_RNO_0_LC_1_27_2 { SB_I2C_INST_LT_RNO_0 }
+clb_pack LT_1_27 { SB_I2C_INST_LT_RNO_1_LC_1_27_1, SB_I2C_INST_LT_RNO_0_LC_1_27_2 }
+set_location LT_1_27 1 27
+ble_pack SB_I2C_INST_LT_RNO_8_LC_1_28_0 { SB_I2C_INST_LT_RNO_8 }
+ble_pack trans_count_RNIB1T71_0_LC_1_28_4 { trans_count_RNIB1T71[0] }
+ble_pack IPDONE_i_RNI98H42_LC_1_28_5 { IPDONE_i_RNI98H42 }
+clb_pack LT_1_28 { SB_I2C_INST_LT_RNO_8_LC_1_28_0, trans_count_RNIB1T71_0_LC_1_28_4, IPDONE_i_RNI98H42_LC_1_28_5 }
+set_location LT_1_28 1 28
+ble_pack trans_count_RNINGJQ_3_LC_1_29_3 { trans_count_RNINGJQ[3] }
+ble_pack trans_count_RNIH7T71_2_LC_1_29_4 { trans_count_RNIH7T71[2] }
+ble_pack SB_I2C_INST_LT_RNO_5_LC_1_29_5 { SB_I2C_INST_LT_RNO_5 }
+ble_pack IPDONE_i_LC_1_29_6 { IPDONE_i_RNO, IPDONE_i }
+ble_pack trans_count_RNIFH7N1_0_LC_1_29_7 { trans_count_RNIFH7N1[0] }
+clb_pack LT_1_29 { trans_count_RNINGJQ_3_LC_1_29_3, trans_count_RNIH7T71_2_LC_1_29_4, SB_I2C_INST_LT_RNO_5_LC_1_29_5, IPDONE_i_LC_1_29_6, trans_count_RNIFH7N1_0_LC_1_29_7 }
+set_location LT_1_29 1 29
+ble_pack SB_I2C_INST_LT_RNO_2_LC_1_30_0 { SB_I2C_INST_LT_RNO_2 }
+ble_pack SB_I2C_INST_LT_RNO_3_LC_1_30_1 { SB_I2C_INST_LT_RNO_3 }
+ble_pack SB_I2C_INST_LT_RNO_7_LC_1_30_2 { SB_I2C_INST_LT_RNO_7 }
+ble_pack trans_count_RNI0P4V2_0_LC_1_30_3 { trans_count_RNI0P4V2[0] }
+ble_pack SB_I2C_INST_LT_RNO_4_LC_1_30_4 { SB_I2C_INST_LT_RNO_4 }
+ble_pack IPDONE_i_RNIMI422_LC_1_30_5 { IPDONE_i_RNIMI422 }
+ble_pack SB_I2C_INST_LT_RNO_6_LC_1_30_6 { SB_I2C_INST_LT_RNO_6 }
+ble_pack SB_I2C_INST_LT_RNO_LC_1_30_7 { SB_I2C_INST_LT_RNO }
+clb_pack LT_1_30 { SB_I2C_INST_LT_RNO_2_LC_1_30_0, SB_I2C_INST_LT_RNO_3_LC_1_30_1, SB_I2C_INST_LT_RNO_7_LC_1_30_2, trans_count_RNI0P4V2_0_LC_1_30_3, SB_I2C_INST_LT_RNO_4_LC_1_30_4, IPDONE_i_RNIMI422_LC_1_30_5, SB_I2C_INST_LT_RNO_6_LC_1_30_6, SB_I2C_INST_LT_RNO_LC_1_30_7 }
+set_location LT_1_30 1 30
+ble_pack trans_count_fast_0_LC_2_28_3 { trans_count_fast_RNO[0], trans_count_fast[0] }
+ble_pack trans_count_0_LC_2_28_7 { trans_count_RNO[0], trans_count[0] }
+clb_pack LT_2_28 { trans_count_fast_0_LC_2_28_3, trans_count_0_LC_2_28_7 }
+set_location LT_2_28 2 28
+ble_pack trans_count_fast_RNI5VSA_0_LC_2_29_0 { trans_count_fast_RNI5VSA[0], trans_count_cry_c[0] }
+ble_pack trans_count_1_LC_2_29_1 { trans_count_RNO[1], trans_count[1], trans_count_cry_c[1] }
+ble_pack trans_count_2_LC_2_29_2 { trans_count_RNO[2], trans_count[2], trans_count_cry_c[2] }
+ble_pack trans_count_3_LC_2_29_3 { trans_count_RNO[3], trans_count[3], trans_count_cry_c[3] }
+ble_pack trans_count_4_LC_2_29_4 { trans_count_RNO[4], trans_count[4], trans_count_cry_c[4] }
+ble_pack trans_count_5_LC_2_29_5 { trans_count_RNO[5], trans_count[5] }
+clb_pack LT_2_29 { trans_count_fast_RNI5VSA_0_LC_2_29_0, trans_count_1_LC_2_29_1, trans_count_2_LC_2_29_2, trans_count_3_LC_2_29_3, trans_count_4_LC_2_29_4, trans_count_5_LC_2_29_5 }
+set_location LT_2_29 2 29
+ble_pack trans_count_RNI4GAF_5_LC_2_30_3 { trans_count_RNI4GAF[5] }
+ble_pack trans_count_fast_RNIOBG51_0_LC_2_30_4 { trans_count_fast_RNIOBG51[0] }
+clb_pack LT_2_30 { trans_count_RNI4GAF_5_LC_2_30_3, trans_count_fast_RNIOBG51_0_LC_2_30_4 }
+set_location LT_2_30 2 30
+ble_pack load_d2_LC_3_27_1 { load_d2_THRU_LUT4_0, load_d2 }
+ble_pack start_LC_3_27_3 { start_RNO, start }
+ble_pack pup_LC_3_27_5 { pup_RNO, pup }
+ble_pack load_d1_LC_3_27_6 { load_d1_RNO, load_d1 }
+clb_pack LT_3_27 { load_d2_LC_3_27_1, start_LC_3_27_3, pup_LC_3_27_5, load_d1_LC_3_27_6 }
+set_location LT_3_27 3 27
+ble_pack trans_count_fast_RNIOBG51_0_0_LC_3_28_0 { trans_count_fast_RNIOBG51_0[0] }
+ble_pack SB_I2C_INST_LT_RNIJVJA1_LC_3_28_1 { SB_I2C_INST_LT_RNIJVJA1 }
+ble_pack start_RNIPOMK2_LC_3_28_2 { start_RNIPOMK2 }
+clb_pack LT_3_28 { trans_count_fast_RNIOBG51_0_0_LC_3_28_0, SB_I2C_INST_LT_RNIJVJA1_LC_3_28_1, start_RNIPOMK2_LC_3_28_2 }
+set_location LT_3_28 3 28
+ble_pack IPDONE_i_RNO_0_LC_3_29_1 { IPDONE_i_RNO_0 }
+clb_pack LT_3_29 { IPDONE_i_RNO_0_LC_3_29_1 }
+set_location LT_3_29 3 29
+ble_pack SBACKo_obuf_RNO_LC_10_11_4 { SBACKo_obuf_RNO }
+clb_pack LT_10_11 { SBACKo_obuf_RNO_LC_10_11_4 }
+set_location LT_10_11 10 11
+set_io SBSTBi D3
+set_io SBCLKi F5
+set_io SBWRi B1
+set_io IPDONE F1
+set_io I2CPIRQ[0] A2
+set_io I2C2_SCL A4
+set_io SBACKo F2
+set_io RST C3
+set_io I2CPWKUP[1] D1
+set_io I2CPIRQ[1] A1
+set_io I2C2_SDA B3
+set_io IPLOAD E3
+set_io I2CPWKUP[0] C1

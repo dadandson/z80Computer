@@ -1,0 +1,46 @@
+ble_pack trans_count_fast_RNI5VSA[0]_LC_35 {trans_count_cry_c[0], trans_count_fast_RNI5VSA[0]}
+ble_pack trans_count[1]_LC_30 {trans_count[1], trans_count_cry_c[1], trans_count_RNO[1]}
+ble_pack trans_count[2]_LC_31 {trans_count[2], trans_count_cry_c[2], trans_count_RNO[2]}
+ble_pack trans_count[3]_LC_32 {trans_count[3], trans_count_cry_c[3], trans_count_RNO[3]}
+ble_pack trans_count[4]_LC_33 {trans_count[4], trans_count_cry_c[4], trans_count_RNO[4]}
+ble_pack trans_count[5]_LC_34 {trans_count[5], trans_count_RNO[5]}
+clb_pack PLB_0 {trans_count_fast_RNI5VSA[0]_LC_35, trans_count[1]_LC_30, trans_count[2]_LC_31, trans_count[3]_LC_32, trans_count[4]_LC_33, trans_count[5]_LC_34}
+ble_pack IPDONE_i_RNO_0_LC_3 {IPDONE_i_RNO_0}
+ble_pack IPDONE_i_LC_2 {IPDONE_i, IPDONE_i_RNO}
+ble_pack trans_count_RNI4GAF[5]_LC_24 {trans_count_RNI4GAF[5]}
+ble_pack SB_I2C_INST_LT_RNO_4_LC_11 {SB_I2C_INST_LT_RNO_4}
+ble_pack trans_count_RNIH7T71[2]_LC_27 {trans_count_RNIH7T71[2]}
+ble_pack SB_I2C_INST_LT_RNO_5_LC_12 {SB_I2C_INST_LT_RNO_5}
+ble_pack trans_count_RNINGJQ[3]_LC_28 {trans_count_RNINGJQ[3]}
+ble_pack trans_count_RNIFH7N1[0]_LC_26 {trans_count_RNIFH7N1[0]}
+clb_pack PLB_1 {IPDONE_i_RNO_0_LC_3, IPDONE_i_LC_2, trans_count_RNI4GAF[5]_LC_24, SB_I2C_INST_LT_RNO_4_LC_11, trans_count_RNIH7T71[2]_LC_27, SB_I2C_INST_LT_RNO_5_LC_12, trans_count_RNINGJQ[3]_LC_28, trans_count_RNIFH7N1[0]_LC_26}
+ble_pack SB_I2C_INST_LT_RNIJVJA1_LC_5 {SB_I2C_INST_LT_RNIJVJA1}
+ble_pack start_RNIPOMK2_LC_20 {start_RNIPOMK2}
+ble_pack trans_count_fast_RNIOBG51_0[0]_LC_37 {trans_count_fast_RNIOBG51_0[0]}
+ble_pack trans_count_fast[0]_LC_38 {trans_count_fast[0], trans_count_fast_RNO[0]}
+ble_pack trans_count_fast_RNIOBG51[0]_LC_36 {trans_count_fast_RNIOBG51[0]}
+ble_pack IPDONE_i_RNIMI422_LC_1 {IPDONE_i_RNIMI422}
+ble_pack SB_I2C_INST_LT_RNO_6_LC_13 {SB_I2C_INST_LT_RNO_6}
+ble_pack trans_count[0]_LC_29 {trans_count[0], trans_count_RNO[0]}
+clb_pack PLB_2 {SB_I2C_INST_LT_RNIJVJA1_LC_5, start_RNIPOMK2_LC_20, trans_count_fast_RNIOBG51_0[0]_LC_37, trans_count_fast[0]_LC_38, trans_count_fast_RNIOBG51[0]_LC_36, IPDONE_i_RNIMI422_LC_1, SB_I2C_INST_LT_RNO_6_LC_13, trans_count[0]_LC_29}
+ble_pack SB_I2C_INST_LT_RNO_2_LC_9 {SB_I2C_INST_LT_RNO_2}
+ble_pack SB_I2C_INST_LT_RNO_3_LC_10 {SB_I2C_INST_LT_RNO_3}
+ble_pack SB_I2C_INST_LT_RNO_7_LC_14 {SB_I2C_INST_LT_RNO_7}
+ble_pack trans_count_RNI0P4V2[0]_LC_23 {trans_count_RNI0P4V2[0]}
+ble_pack trans_count_RNIB1T71[0]_LC_25 {trans_count_RNIB1T71[0]}
+ble_pack IPDONE_i_RNI98H42_LC_0 {IPDONE_i_RNI98H42}
+ble_pack SB_I2C_INST_LT_RNO_8_LC_15 {SB_I2C_INST_LT_RNO_8}
+ble_pack SB_I2C_INST_LT_RNO_1_LC_8 {SB_I2C_INST_LT_RNO_1}
+clb_pack PLB_3 {SB_I2C_INST_LT_RNO_2_LC_9, SB_I2C_INST_LT_RNO_3_LC_10, SB_I2C_INST_LT_RNO_7_LC_14, trans_count_RNI0P4V2[0]_LC_23, trans_count_RNIB1T71[0]_LC_25, IPDONE_i_RNI98H42_LC_0, SB_I2C_INST_LT_RNO_8_LC_15, SB_I2C_INST_LT_RNO_1_LC_8}
+ble_pack SB_I2C_INST_LT_RNO_0_LC_7 {SB_I2C_INST_LT_RNO_0}
+ble_pack strobe_LC_22 {strobe, strobe_RNO}
+ble_pack sb_idle_LC_19 {sb_idle, sb_idle_RNO}
+ble_pack run_LC_18 {run, run_RNO}
+ble_pack SBACKo_obuf_RNO_LC_4 {SBACKo_obuf_RNO}
+ble_pack pup_LC_17 {pup, pup_RNO}
+ble_pack load_d1_LC_16 {load_d1, load_d1_RNO}
+ble_pack start_LC_21 {start, start_RNO}
+clb_pack PLB_4 {SB_I2C_INST_LT_RNO_0_LC_7, strobe_LC_22, sb_idle_LC_19, run_LC_18, SBACKo_obuf_RNO_LC_4, pup_LC_17, load_d1_LC_16, start_LC_21}
+ble_pack SB_I2C_INST_LT_RNO_LC_6 {SB_I2C_INST_LT_RNO}
+ble_pack load_d2_LC_39 {load_d2, load_d2_THRU_LUT4_0}
+clb_pack PLB_5 {SB_I2C_INST_LT_RNO_LC_6, load_d2_LC_39}

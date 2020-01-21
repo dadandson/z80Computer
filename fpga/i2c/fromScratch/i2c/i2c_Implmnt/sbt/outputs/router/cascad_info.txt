@@ -1,0 +1,6 @@
+[VIC]
+N_10_cascade_=ltout:in0
+N_36_cascade_=ltout:in1
+N_37_cascade_=ltout:in0
+N_40_cascade_=ltout:in1
+SB_I2C_INST_LT_RNIJVJAZ0Z1_cascade_=ltout:in2

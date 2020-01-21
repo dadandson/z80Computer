@@ -1,0 +1,71 @@
+#-- Synopsys, Inc.
+#-- Project file E:\MyStuff\dev\dadandson\z80\fpga\i2c\rd1139_i2c_master_controller\rd1139\project\ice40\verilog\ice40_verilog_syn.prj
+#project files
+
+add_file -verilog -lib work "../../../source/verilog/delay_gen.v" 
+add_file -verilog -lib work "../../../source/verilog/filter.v" 
+add_file -verilog -lib work "../../../source/verilog/i2c_master_byte_rx_fsm.v" 
+add_file -verilog -lib work "../../../source/verilog/i2c_master_byte_tx_fsm.v" 
+add_file -verilog -lib work "../../../source/verilog/i2c_master_cntrl_fsm.v" 
+add_file -verilog -lib work "../../../source/verilog/i2c_master_cntrl_fsm_top.v" 
+add_file -verilog -lib work "../../../source/verilog/i2c_master_controller.v" 
+add_file -verilog -lib work "../../../source/verilog/i2c_master_controller_top.v" 
+add_file -verilog -lib work "../../../source/verilog/i2c_master_falling_scl_detect.v" 
+add_file -verilog -lib work "../../../source/verilog/i2c_master_scl_gen.v" 
+add_file -verilog -lib work "../../../source/verilog/i2c_master_start_detect.v" 
+add_file -verilog -lib work "../../../source/verilog/i2c_master_start_gen.v" 
+add_file -verilog -lib work "../../../source/verilog/i2c_master_stop_detect.v" 
+add_file -verilog -lib work "../../../source/verilog/i2c_master_stop_gen.v" 
+add_file -verilog -lib work "../../../source/verilog/i2cbus_cntrl_fsm_top.v" 
+add_file -constraint -lib work "ice40_timing.sdc"
+#implementation: "ice40_verilog_Implmnt"
+impl -add ice40_verilog_Implmnt -type fpga
+
+#implementation attributes
+set_option -vlog_std v2001
+set_option -project_relative_includes 1
+
+#device options
+set_option -technology SBTiCE5LP
+set_option -part iCE5LP4K
+set_option -package SWG36
+set_option -speed_grade 
+set_option -part_companion ""
+
+#compilation/mapping options
+
+# mapper_options
+set_option -frequency auto
+set_option -write_verilog 0
+set_option -write_vhdl 0
+
+# Silicon Blue iCE40
+set_option -maxfan 10000
+set_option -disable_io_insertion 0
+set_option -pipe 1
+set_option -retiming 0
+set_option -update_models_cp 0
+set_option -fixgatedclocks 2
+set_option -fixgeneratedclocks 0
+
+# NFilter
+set_option -popfeed 0
+set_option -constprop 0
+set_option -createhierarchy 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_format "edif"
+project -result_file ./ice40_verilog_Implmnt/ice40_verilog.edf
+project -log_file "./ice40_verilog_Implmnt/ice40_verilog.srr"
+impl -active ice40_verilog_Implmnt
+project -run synthesis -clean

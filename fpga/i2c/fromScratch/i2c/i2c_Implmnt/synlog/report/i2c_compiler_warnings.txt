@@ -1,0 +1,6 @@
+@W: CG296 :"E:\MyStuff\dev\dadandson\z80\fpga\i2c\fromScratch\i2c\MyI2C.v":244:11:244:19|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"E:\MyStuff\dev\dadandson\z80\fpga\i2c\fromScratch\i2c\MyI2C.v":249:25:249:37|Referenced variable hard10_SBDATo is not in sensitivity list.
+@W: CG290 :"E:\MyStuff\dev\dadandson\z80\fpga\i2c\fromScratch\i2c\MyI2C.v":247:25:247:37|Referenced variable hard11_SBDATo is not in sensitivity list.
+@W: CG290 :"E:\MyStuff\dev\dadandson\z80\fpga\i2c\fromScratch\i2c\MyI2C.v":253:25:253:37|Referenced variable hard00_SBDATo is not in sensitivity list.
+@W: CG290 :"E:\MyStuff\dev\dadandson\z80\fpga\i2c\fromScratch\i2c\MyI2C.v":251:25:251:37|Referenced variable hard01_SBDATo is not in sensitivity list.
+

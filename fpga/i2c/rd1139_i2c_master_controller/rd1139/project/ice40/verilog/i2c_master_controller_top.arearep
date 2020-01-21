@@ -1,0 +1,225 @@
+----------------------------------------------------------------------
+Report for cell i2c_master_controller_top.TECH
+Register bits:  209 of 3500 (5.971%)
+I/O cells:      0
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           SB_CARRY        53          100.0
+                            SB_DFFE         8          100.0
+                           SB_DFFER        41          100.0
+                           SB_DFFES         1          100.0
+                            SB_DFFR       148          100.0
+                            SB_DFFS        11          100.0
+                           SB_GB_IO         1          100.0
+                              SB_IO        65          100.0
+                            SB_LUT4       261          100.0
+SUB MODULES
+                          delay_gen         1
+                       delay_gen_U0         1
+                             filter         1
+                          filter_U1         1
+             i2c_master_byte_rx_fsm         1
+             i2c_master_byte_tx_fsm         1
+               i2c_master_cntrl_fsm         1
+           i2c_master_cntrl_fsm_top         1
+              i2c_master_controller         1
+      i2c_master_falling_scl_detect         1
+                 i2c_master_scl_gen         1
+            i2c_master_start_detect         1
+               i2c_master_start_gen         1
+             i2c_master_stop_detect         1
+                i2c_master_stop_gen         1
+               i2cbus_cntrl_fsm_top         1
+                              TOTAL       605
+----------------------------------------------------------------------
+Report for cell i2c_master_controller.v1
+Instance Path : u_i2c_master_controller
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           SB_CARRY        53          100.0
+                            SB_DFFE         8          100.0
+                           SB_DFFER        41          100.0
+                           SB_DFFES         1          100.0
+                            SB_DFFR       148          100.0
+                            SB_DFFS        11          100.0
+                            SB_LUT4       221           84.7
+SUB MODULES
+                          delay_gen         1
+                       delay_gen_U0         1
+                             filter         1
+                          filter_U1         1
+             i2c_master_byte_rx_fsm         1
+             i2c_master_byte_tx_fsm         1
+               i2c_master_cntrl_fsm         1
+           i2c_master_cntrl_fsm_top         1
+      i2c_master_falling_scl_detect         1
+                 i2c_master_scl_gen         1
+            i2c_master_start_detect         1
+               i2c_master_start_gen         1
+             i2c_master_stop_detect         1
+                i2c_master_stop_gen         1
+               i2cbus_cntrl_fsm_top         1
+                              TOTAL       498
+----------------------------------------------------------------------
+Report for cell i2cbus_cntrl_fsm_top.v1
+Instance Path : u_i2c_master_controller.i2cbus_cntrl_fsm
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           SB_CARRY        46           86.8
+                           SB_DFFER        11           26.8
+                            SB_DFFR        65           43.9
+                            SB_DFFS         7           63.6
+                            SB_LUT4        96           36.8
+SUB MODULES
+                          delay_gen         1
+                       delay_gen_U0         1
+      i2c_master_falling_scl_detect         1
+                 i2c_master_scl_gen         1
+            i2c_master_start_detect         1
+               i2c_master_start_gen         1
+             i2c_master_stop_detect         1
+                i2c_master_stop_gen         1
+                              TOTAL       233
+----------------------------------------------------------------------
+Report for cell i2c_master_stop_gen.v1
+Instance Path : u_i2c_master_controller.i2cbus_cntrl_fsm.stop_gen
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           SB_CARRY        15           28.3
+                           SB_DFFER         1            2.4
+                            SB_DFFR        19           12.8
+                            SB_DFFS         1            9.1
+                            SB_LUT4        28           10.7
+SUB MODULES
+                          delay_gen         1
+                              TOTAL        65
+----------------------------------------------------------------------
+Report for cell delay_gen.v1
+Instance Path : u_i2c_master_controller.i2cbus_cntrl_fsm.stop_gen.delay_gen
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           SB_CARRY        15           28.3
+                            SB_DFFR        17           11.5
+                            SB_LUT4        25            9.6
+                              TOTAL        57
+----------------------------------------------------------------------
+Report for cell i2c_master_stop_detect.v1
+Instance Path : u_i2c_master_controller.i2cbus_cntrl_fsm.stop_detect
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            SB_DFFR         2            1.4
+                            SB_LUT4         1            0.4
+                              TOTAL         3
+----------------------------------------------------------------------
+Report for cell i2c_master_start_gen.v1
+Instance Path : u_i2c_master_controller.i2cbus_cntrl_fsm.start_gen
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           SB_CARRY        15           28.3
+                            SB_DFFR        25           16.9
+                            SB_DFFS         4           36.4
+                            SB_LUT4        35           13.4
+SUB MODULES
+                       delay_gen_U0         1
+                              TOTAL        80
+----------------------------------------------------------------------
+Report for cell delay_gen_U0.v1
+Instance Path : u_i2c_master_controller.i2cbus_cntrl_fsm.start_gen.delay_gen
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           SB_CARRY        15           28.3
+                            SB_DFFR        17           11.5
+                            SB_LUT4        25            9.6
+                              TOTAL        57
+----------------------------------------------------------------------
+Report for cell i2c_master_start_detect.v1
+Instance Path : u_i2c_master_controller.i2cbus_cntrl_fsm.start_detect
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            SB_DFFR         2            1.4
+                            SB_LUT4         2            0.8
+                              TOTAL         4
+----------------------------------------------------------------------
+Report for cell i2c_master_scl_gen.v1
+Instance Path : u_i2c_master_controller.i2cbus_cntrl_fsm.scl_gen
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           SB_CARRY        16           30.2
+                           SB_DFFER         9           22.0
+                            SB_DFFR        15           10.1
+                            SB_DFFS         2           18.2
+                            SB_LUT4        28           10.7
+                              TOTAL        70
+----------------------------------------------------------------------
+Report for cell i2c_master_falling_scl_detect.v1
+Instance Path : u_i2c_master_controller.i2cbus_cntrl_fsm.falling_scl_detect
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           SB_DFFER         1            2.4
+                            SB_DFFR         2            1.4
+                            SB_LUT4         2            0.8
+                              TOTAL         5
+----------------------------------------------------------------------
+Report for cell filter.v1
+Instance Path : u_i2c_master_controller.filter_sda
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            SB_DFFR         4            2.7
+                            SB_LUT4         2            0.8
+                              TOTAL         6
+----------------------------------------------------------------------
+Report for cell filter_U1.v1
+Instance Path : u_i2c_master_controller.filter_scl
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            SB_DFFR         4            2.7
+                            SB_LUT4         2            0.8
+                              TOTAL         6
+----------------------------------------------------------------------
+Report for cell i2c_master_cntrl_fsm_top.v1
+Instance Path : u_i2c_master_controller.cntrl_fsm
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           SB_CARRY         7           13.2
+                            SB_DFFE         8          100.0
+                           SB_DFFER        29           70.7
+                           SB_DFFES         1          100.0
+                            SB_DFFR        73           49.3
+                            SB_DFFS         4           36.4
+                            SB_LUT4       116           44.4
+SUB MODULES
+             i2c_master_byte_rx_fsm         1
+             i2c_master_byte_tx_fsm         1
+               i2c_master_cntrl_fsm         1
+                              TOTAL       241
+----------------------------------------------------------------------
+Report for cell i2c_master_cntrl_fsm.v1
+Instance Path : u_i2c_master_controller.cntrl_fsm.cntrl_fsm
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           SB_CARRY         7           13.2
+                           SB_DFFER        13           31.7
+                            SB_DFFR        28           18.9
+                            SB_DFFS         1            9.1
+                            SB_LUT4        60           23.0
+                              TOTAL       109
+----------------------------------------------------------------------
+Report for cell i2c_master_byte_tx_fsm.v1
+Instance Path : u_i2c_master_controller.cntrl_fsm.byte_tx_fsm
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            SB_DFFR        11            7.4
+                            SB_DFFS         2           18.2
+                            SB_LUT4        28           10.7
+                              TOTAL        41
+----------------------------------------------------------------------
+Report for cell i2c_master_byte_rx_fsm.v1
+Instance Path : u_i2c_master_controller.cntrl_fsm.byte_rx_fsm
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            SB_DFFE         8          100.0
+                           SB_DFFES         1          100.0
+                            SB_DFFR        10            6.8
+                            SB_DFFS         1            9.1
+                            SB_LUT4        13            5.0
+                              TOTAL        33

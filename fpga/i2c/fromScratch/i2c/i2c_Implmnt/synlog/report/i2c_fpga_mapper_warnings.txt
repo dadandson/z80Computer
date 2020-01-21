@@ -1,0 +1,7 @@
+@W: FA239 :"e:\mystuff\dev\dadandson\z80\fpga\i2c\fromscratch\i2c\myi2c.v":217:24:217:48|ROM ssm_SBDATi[7:0] (in view: work.MyI2C(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"e:\mystuff\dev\dadandson\z80\fpga\i2c\fromscratch\i2c\myi2c.v":216:24:216:47|ROM ssm_SBADRi[7:5] (in view: work.MyI2C(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"e:\mystuff\dev\dadandson\z80\fpga\i2c\fromscratch\i2c\myi2c.v":216:24:216:47|ROM ssm_SBADRi[3:2] (in view: work.MyI2C(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"e:\mystuff\dev\dadandson\z80\fpga\i2c\fromscratch\i2c\myi2c.v":217:24:217:48|ROM ssm_SBDATi[7:0] (in view: work.MyI2C(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"e:\mystuff\dev\dadandson\z80\fpga\i2c\fromscratch\i2c\myi2c.v":216:24:216:47|ROM ssm_SBADRi[7:5] (in view: work.MyI2C(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"e:\mystuff\dev\dadandson\z80\fpga\i2c\fromscratch\i2c\myi2c.v":216:24:216:47|ROM ssm_SBADRi[3:2] (in view: work.MyI2C(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: MT420 |Found inferred clock MyI2C|SBCLKi with period 5.68ns. Please declare a user-defined clock on object "p:SBCLKi"

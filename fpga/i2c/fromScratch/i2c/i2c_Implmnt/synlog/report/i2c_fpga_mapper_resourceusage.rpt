@@ -1,0 +1,26 @@
+---------------------------------------
+Resource Usage Report for MyI2C 
+
+Mapping to part: ice40up5kuwg30
+Cell usage:
+SB_CARRY        5 uses
+SB_DFFER        7 uses
+SB_DFFR         6 uses
+SB_DFFS         2 uses
+SB_I2C          1 use
+SB_LUT4         39 uses
+
+I/O ports: 13
+I/O primitives: 13
+SB_GB_IO       1 use
+SB_IO          12 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   15 (0%)
+
+@S |Mapping Summary:
+Total  LUTs: 39 (0%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 39 = 39 
+

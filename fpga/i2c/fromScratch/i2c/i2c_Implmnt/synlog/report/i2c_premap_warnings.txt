@@ -1,0 +1,2 @@
+@W: MT453 |clock period is too long for clock MyI2C|I2C2_SCLo_derived_clock, changing period from 48000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 24000.0 ns to 10000.0 ns. 
+@W: MT529 :"e:\mystuff\dev\dadandson\z80\fpga\i2c\fromscratch\i2c\myi2c.v":259:4:259:9|Found inferred clock MyI2C|SBCLKi which controls 15 sequential elements including trans_count[5:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
