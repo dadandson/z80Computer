@@ -3349,9 +3349,9 @@ chip</description>
 <wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.127" layer="21"/>
 <wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.127" layer="21"/>
 <wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.127" layer="21"/>
-<pad name="2" x="0" y="2.5" drill="0.9" diameter="1.6764"/>
-<pad name="1" x="-2.5" y="0" drill="0.9" diameter="1.6764"/>
-<pad name="3" x="2.5" y="0" drill="0.9" diameter="1.6764"/>
+<pad name="2" x="0" y="2.5" drill="0.9" diameter="1.9304"/>
+<pad name="1" x="-2.5" y="0" drill="0.9" diameter="1.9304"/>
+<pad name="3" x="2.5" y="0" drill="0.9" diameter="1.9304"/>
 </package>
 </packages>
 <packages3d>
@@ -4930,6 +4930,7 @@ Simple slide switch.</description>
 <part name="C2" library="passives" deviceset="C-US" device="C0805K" package3d_urn="urn:adsk.eagle:package:8089589/1" value="1 uF"/>
 <part name="C3" library="passives" deviceset="C-US" device="C0805K" package3d_urn="urn:adsk.eagle:package:8089589/1" value="10 uF"/>
 <part name="U$1" library="connector" deviceset="M03" device=""/>
+<part name="C4" library="passives" deviceset="C-US" device="C0805K" package3d_urn="urn:adsk.eagle:package:8089589/1" value="0.1 uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -4969,6 +4970,10 @@ if connected to ground divide clock by 1 (Max Frq: 20 MHz)</text>
 <attribute name="VALUE" x="172.72" y="76.2" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="172.72" y="62.738" size="1.778" layer="95" rot="R180"/>
 </instance>
+<instance part="C4" gate="G$1" x="43.18" y="73.66" smashed="yes" rot="R180">
+<attribute name="NAME" x="42.164" y="73.025" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="42.164" y="77.851" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5004,16 +5009,24 @@ if connected to ground divide clock by 1 (Max Frq: 20 MHz)</text>
 <wire x1="162.56" y1="66.04" x2="162.56" y2="63.5" width="0.1524" layer="91"/>
 <label x="162.56" y="60.96" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="78.74" x2="43.18" y2="81.28" width="0.1524" layer="91"/>
+<label x="45.72" y="81.28" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="V5" class="0">
 <segment>
 <pinref part="U5" gate="A" pin="V+"/>
 <pinref part="U$3" gate="G$1" pin="P2"/>
-<wire x1="45.72" y1="71.12" x2="35.56" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="71.12" x2="43.18" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="71.12" x2="35.56" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="71.12" x2="20.32" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="71.12" x2="35.56" y2="76.2" width="0.1524" layer="91"/>
 <junction x="35.56" y="71.12"/>
 <label x="35.56" y="78.74" size="1.778" layer="95"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<junction x="43.18" y="71.12"/>
 </segment>
 <segment>
 <pinref part="U$6" gate="J$1" pin="3"/>
