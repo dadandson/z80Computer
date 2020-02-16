@@ -11,11 +11,11 @@
    width="33.548319mm"
    height="43.708319mm"
    viewBox="-0.264159 -43.444159 33.548319 43.708319"
-   id="svg151"
+   id="svg223"
    sodipodi:docname="clock-power-module_brd-flip.svg"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <metadata
-     id="metadata155">
+     id="metadata227">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -37,7 +37,7 @@
      inkscape:pageshadow="2"
      inkscape:window-width="4003"
      inkscape:window-height="2126"
-     id="namedview153"
+     id="namedview225"
      showgrid="false"
      inkscape:zoom="11.337992"
      inkscape:cx="63.398401"
@@ -45,7 +45,7 @@
      inkscape:window-x="2149"
      inkscape:window-y="1660"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg151" />
+     inkscape:current-layer="svg223" />
   <title
      id="title10">E:/MyStuff/dev/dadandson/z80Computer/hardware/clock/clock-power-module.brd</title>
   <desc
@@ -55,52 +55,169 @@
     <style
        type="text/css"
        id="style14"><![CDATA[
-path.l17 {stroke:#3ddc97; fill:none; }
-line.l17 {stroke:#3ddc97; fill:none; }
-circle.l17 {stroke:#3ddc97; fill:none; }
-circle.j17 {fill:#3ddc97; }
-rect.l17 {fill:#3ddc97; }
-text.l17 {font-family:sans-serif; fill:#3ddc97; }
-polygon.l17 {fill:#3ddc97; }
+path.l16 {stroke:#000000; fill:none; }
+line.l16 {stroke:#000000; fill:none; }
+circle.l16 {stroke:#000000; fill:none; }
+circle.j16 {fill:#000000; }
+rect.l16 {fill:#000000; }
+text.l16 {font-family:sans-serif; fill:#000000; }
+polygon.l16 {fill:#000000; }
+path.l17 {stroke:#000000; fill:none; }
+line.l17 {stroke:#000000; fill:none; }
+circle.l17 {stroke:#000000; fill:none; }
+circle.j17 {fill:#000000; }
+rect.l17 {fill:#000000; }
+text.l17 {font-family:sans-serif; fill:#000000; }
+polygon.l17 {fill:#000000; }
 circle.j0 {fill:#afd134; }
 ]]></style>
   </defs>
   <g
-     id="g224"
-     transform="matrix(-1,0,0,1,31.579201,0)">
+     id="g332"
+     transform="matrix(-1,0,0,1,33.0952,0)">
     <g
        id="surface0">
       <g
-         id="g20">
-        <title
-           id="title18">PART C1</title>
-      </g>
-      <g
          id="g24">
         <title
-           id="title22">PART C2</title>
-      </g>
-      <g
-         id="g28">
-        <title
-           id="title26">PART C3</title>
+           id="title18">PART C1</title>
+        <rect
+           id="rect20"
+           transform="rotate(-180,3.1035,-6.4135)"
+           rx="0.064999998"
+           height="1.6"
+           width="1.3"
+           y="-0.80000001"
+           x="-0.64999998"
+           class="l16"
+           style="fill:#000000" />
+        <rect
+           id="rect22"
+           transform="rotate(-180,2.1035,-6.4135)"
+           rx="0.064999998"
+           height="1.6"
+           width="1.3"
+           y="-0.80000001"
+           x="-0.64999998"
+           class="l16"
+           style="fill:#000000" />
       </g>
       <g
          id="g32">
         <title
-           id="title30">PART C4</title>
+           id="title26">PART C2</title>
+        <rect
+           id="rect28"
+           transform="translate(6.493,-28.702)"
+           rx="0.064999998"
+           height="1.6"
+           width="1.3"
+           y="-0.80000001"
+           x="-0.64999998"
+           class="l16"
+           style="fill:#000000" />
+        <rect
+           id="rect30"
+           transform="translate(8.493,-28.702)"
+           rx="0.064999998"
+           height="1.6"
+           width="1.3"
+           y="-0.80000001"
+           x="-0.64999998"
+           class="l16"
+           style="fill:#000000" />
       </g>
       <g
-         id="g36">
+         id="g40">
         <title
-           id="title34">PART C12</title>
+           id="title34">PART C3</title>
+        <rect
+           id="rect36"
+           transform="rotate(-180,3.1035,-4.8895)"
+           rx="0.064999998"
+           height="1.6"
+           width="1.3"
+           y="-0.80000001"
+           x="-0.64999998"
+           class="l16"
+           style="fill:#000000" />
+        <rect
+           id="rect38"
+           transform="rotate(-180,2.1035,-4.8895)"
+           rx="0.064999998"
+           height="1.6"
+           width="1.3"
+           y="-0.80000001"
+           x="-0.64999998"
+           class="l16"
+           style="fill:#000000" />
       </g>
       <g
          id="g48">
         <title
-           id="title38">PART J1</title>
+           id="title42">PART C4</title>
         <rect
-           id="rect40"
+           id="rect44"
+           transform="rotate(90,11.168,6.231)"
+           rx="0.064999998"
+           height="1.6"
+           width="1.3"
+           y="-0.80000001"
+           x="-0.64999998"
+           class="l16"
+           style="fill:#000000" />
+        <rect
+           id="rect46"
+           transform="rotate(90,10.168,7.231)"
+           rx="0.064999998"
+           height="1.6"
+           width="1.3"
+           y="-0.80000001"
+           x="-0.64999998"
+           class="l16"
+           style="fill:#000000" />
+      </g>
+      <g
+         id="g56">
+        <title
+           id="title50">PART C12</title>
+        <rect
+           id="rect52"
+           transform="translate(27.702,-28.956)"
+           rx="0.064999998"
+           height="1.6"
+           width="1.3"
+           y="-0.80000001"
+           x="-0.64999998"
+           class="l16"
+           style="fill:#000000" />
+        <rect
+           id="rect54"
+           transform="translate(29.702,-28.956)"
+           rx="0.064999998"
+           height="1.6"
+           width="1.3"
+           y="-0.80000001"
+           x="-0.64999998"
+           class="l16"
+           style="fill:#000000" />
+      </g>
+      <g
+         id="g72">
+        <title
+           id="title58">PART J1</title>
+        <rect
+           id="rect60"
+           transform="rotate(90,5.7785,0.4445)"
+           rx="0.93980002"
+           height="1.8796"
+           width="2.8194001"
+           y="-0.93980002"
+           x="-1.4097"
+           class="l16"
+           style="fill:#000000" />
+        <rect
+           id="rect62"
            transform="rotate(90,5.7785,0.4445)"
            rx="0.93980002"
            height="1.8796"
@@ -108,16 +225,26 @@ circle.j0 {fill:#afd134; }
            y="-0.93980002"
            x="-1.4097"
            class="l17"
-           style="fill:#3ddc97" />
+           style="fill:#000000" />
         <circle
-           id="circle42"
+           id="circle64"
            r="0.55879998"
            cy="-5.3340001"
            cx="6.223"
            class="j0"
            style="fill:#afd134" />
         <rect
-           id="rect44"
+           id="rect66"
+           transform="rotate(90,4.5085,-0.8255)"
+           rx="0.93980002"
+           height="1.8796"
+           width="2.8194001"
+           y="-0.93980002"
+           x="-1.4097"
+           class="l16"
+           style="fill:#000000" />
+        <rect
+           id="rect68"
            transform="rotate(90,4.5085,-0.8255)"
            rx="0.93980002"
            height="1.8796"
@@ -125,9 +252,9 @@ circle.j0 {fill:#afd134; }
            y="-0.93980002"
            x="-1.4097"
            class="l17"
-           style="fill:#3ddc97" />
+           style="fill:#000000" />
         <circle
-           id="circle46"
+           id="circle70"
            r="0.55879998"
            cy="-5.3340001"
            cx="3.6830001"
@@ -135,146 +262,230 @@ circle.j0 {fill:#afd134; }
            style="fill:#afd134" />
       </g>
       <g
-         id="g52">
+         id="g80">
         <title
-           id="title50">PART R19</title>
-      </g>
-      <g
-         id="g68">
-        <title
-           id="title54">PART S4</title>
-        <circle
-           id="circle56"
-           r="0.96520001"
-           cy="-32.5"
-           cx="19.2178"
-           class="j17"
-           style="fill:#3ddc97" />
-        <circle
-           id="circle58"
-           r="0.60000002"
-           cy="-32.5"
-           cx="19.2178"
-           class="j0"
-           style="fill:#afd134" />
-        <circle
-           id="circle60"
-           r="0.96520001"
-           cy="-32.5"
-           cx="16.5"
-           class="j17"
-           style="fill:#3ddc97" />
-        <circle
-           id="circle62"
-           r="0.60000002"
-           cy="-32.5"
-           cx="16.5"
-           class="j0"
-           style="fill:#afd134" />
-        <circle
-           id="circle64"
-           r="0.96520001"
-           cy="-32.5"
-           cx="13.7822"
-           class="j17"
-           style="fill:#3ddc97" />
-        <circle
-           id="circle66"
-           r="0.60000002"
-           cy="-32.5"
-           cx="13.7822"
-           class="j0"
-           style="fill:#afd134" />
-      </g>
-      <g
-         id="g84">
-        <title
-           id="title70">PART U$1</title>
+           id="title74">PART R19</title>
         <rect
-           id="rect72"
-           transform="rotate(-90,-13.335,-27.305)"
-           height="1.8796"
-           width="1.8796"
-           y="-0.93980002"
-           x="-0.93980002"
-           class="l17"
-           style="fill:#3ddc97" />
-        <circle
-           id="circle74"
-           r="0.50800002"
-           cy="-40.639999"
-           cx="13.97"
-           class="j0"
-           style="fill:#afd134" />
-        <polygon
-           id="polygon76"
-           transform="rotate(-90,-12.065,-28.575)"
-           points="0.389278,0.9398 -0.389278,0.9398 -0.9398,0.389278 -0.9398,-0.389278 -0.389278,-0.9398 0.389278,-0.9398 0.9398,-0.389278 0.9398,0.389278 "
-           class="l17"
-           style="fill:#3ddc97" />
-        <circle
-           id="circle78"
-           r="0.50800002"
-           cy="-40.639999"
-           cx="16.51"
-           class="j0"
-           style="fill:#afd134" />
-        <circle
-           id="circle80"
-           r="0.93980002"
-           cy="-40.639999"
-           cx="19.049999"
-           class="j17"
-           style="fill:#3ddc97" />
-        <circle
-           id="circle82"
-           r="0.50800002"
-           cy="-40.639999"
-           cx="19.049999"
-           class="j0"
-           style="fill:#afd134" />
+           id="rect76"
+           transform="translate(27.675,-32.5)"
+           rx="0.052000001"
+           height="1.2"
+           width="0.80000001"
+           y="-0.60000002"
+           x="-0.40000001"
+           class="l16"
+           style="fill:#000000" />
+        <rect
+           id="rect78"
+           transform="translate(29.475,-32.5)"
+           rx="0.052000001"
+           height="1.2"
+           width="0.80000001"
+           y="-0.60000002"
+           x="-0.40000001"
+           class="l16"
+           style="fill:#000000" />
       </g>
       <g
-         id="g100">
+         id="g102">
         <title
-           id="title86">PART U$3</title>
+           id="title82">PART S4</title>
+        <circle
+           id="circle84"
+           r="0.96520001"
+           cy="-32.5"
+           cx="19.2178"
+           class="j16"
+           style="fill:#000000" />
+        <circle
+           id="circle86"
+           r="0.96520001"
+           cy="-32.5"
+           cx="19.2178"
+           class="j17"
+           style="fill:#000000" />
         <circle
            id="circle88"
-           r="0.96520001"
-           cy="-21"
-           cx="19"
-           class="j17"
-           style="fill:#3ddc97" />
-        <circle
-           id="circle90"
-           r="0.44999999"
-           cy="-21"
-           cx="19"
+           r="0.60000002"
+           cy="-32.5"
+           cx="19.2178"
            class="j0"
            style="fill:#afd134" />
+        <circle
+           id="circle90"
+           r="0.96520001"
+           cy="-32.5"
+           cx="16.5"
+           class="j16"
+           style="fill:#000000" />
         <circle
            id="circle92"
            r="0.96520001"
-           cy="-18.5"
+           cy="-32.5"
            cx="16.5"
            class="j17"
-           style="fill:#3ddc97" />
+           style="fill:#000000" />
         <circle
            id="circle94"
-           r="0.44999999"
-           cy="-18.5"
+           r="0.60000002"
+           cy="-32.5"
            cx="16.5"
            class="j0"
            style="fill:#afd134" />
         <circle
            id="circle96"
            r="0.96520001"
+           cy="-32.5"
+           cx="13.7822"
+           class="j16"
+           style="fill:#000000" />
+        <circle
+           id="circle98"
+           r="0.96520001"
+           cy="-32.5"
+           cx="13.7822"
+           class="j17"
+           style="fill:#000000" />
+        <circle
+           id="circle100"
+           r="0.60000002"
+           cy="-32.5"
+           cx="13.7822"
+           class="j0"
+           style="fill:#afd134" />
+      </g>
+      <g
+         id="g124">
+        <title
+           id="title104">PART U$1</title>
+        <rect
+           id="rect106"
+           transform="rotate(-90,-13.335,-27.305)"
+           height="1.8796"
+           width="1.8796"
+           y="-0.93980002"
+           x="-0.93980002"
+           class="l16"
+           style="fill:#000000" />
+        <rect
+           id="rect108"
+           transform="rotate(-90,-13.335,-27.305)"
+           height="1.8796"
+           width="1.8796"
+           y="-0.93980002"
+           x="-0.93980002"
+           class="l17"
+           style="fill:#000000" />
+        <circle
+           id="circle110"
+           r="0.50800002"
+           cy="-40.639999"
+           cx="13.97"
+           class="j0"
+           style="fill:#afd134" />
+        <polygon
+           id="polygon112"
+           transform="rotate(-90,-12.065,-28.575)"
+           points="0.389278,0.9398 -0.389278,0.9398 -0.9398,0.389278 -0.9398,-0.389278 -0.389278,-0.9398 0.389278,-0.9398 0.9398,-0.389278 0.9398,0.389278 "
+           class="l16"
+           style="fill:#000000" />
+        <polygon
+           id="polygon114"
+           transform="rotate(-90,-12.065,-28.575)"
+           points="0.389278,0.9398 -0.389278,0.9398 -0.9398,0.389278 -0.9398,-0.389278 -0.389278,-0.9398 0.389278,-0.9398 0.9398,-0.389278 0.9398,0.389278 "
+           class="l17"
+           style="fill:#000000" />
+        <circle
+           id="circle116"
+           r="0.50800002"
+           cy="-40.639999"
+           cx="16.51"
+           class="j0"
+           style="fill:#afd134" />
+        <circle
+           id="circle118"
+           r="0.93980002"
+           cy="-40.639999"
+           cx="19.049999"
+           class="j16"
+           style="fill:#000000" />
+        <circle
+           id="circle120"
+           r="0.93980002"
+           cy="-40.639999"
+           cx="19.049999"
+           class="j17"
+           style="fill:#000000" />
+        <circle
+           id="circle122"
+           r="0.50800002"
+           cy="-40.639999"
+           cx="19.049999"
+           class="j0"
+           style="fill:#afd134" />
+      </g>
+      <g
+         id="g146">
+        <title
+           id="title126">PART U$3</title>
+        <circle
+           id="circle128"
+           r="0.96520001"
+           cy="-21"
+           cx="19"
+           class="j16"
+           style="fill:#000000" />
+        <circle
+           id="circle130"
+           r="0.96520001"
+           cy="-21"
+           cx="19"
+           class="j17"
+           style="fill:#000000" />
+        <circle
+           id="circle132"
+           r="0.44999999"
+           cy="-21"
+           cx="19"
+           class="j0"
+           style="fill:#afd134" />
+        <circle
+           id="circle134"
+           r="0.96520001"
+           cy="-18.5"
+           cx="16.5"
+           class="j16"
+           style="fill:#000000" />
+        <circle
+           id="circle136"
+           r="0.96520001"
+           cy="-18.5"
+           cx="16.5"
+           class="j17"
+           style="fill:#000000" />
+        <circle
+           id="circle138"
+           r="0.44999999"
+           cy="-18.5"
+           cx="16.5"
+           class="j0"
+           style="fill:#afd134" />
+        <circle
+           id="circle140"
+           r="0.96520001"
+           cy="-21"
+           cx="14"
+           class="j16"
+           style="fill:#000000" />
+        <circle
+           id="circle142"
+           r="0.96520001"
            cy="-21"
            cx="14"
            class="j17"
-           style="fill:#3ddc97" />
+           style="fill:#000000" />
         <circle
-           id="circle98"
+           id="circle144"
            r="0.44999999"
            cy="-21"
            cx="14"
@@ -282,47 +493,69 @@ circle.j0 {fill:#afd134; }
            style="fill:#afd134" />
       </g>
       <g
-         id="g116">
+         id="g168">
         <title
-           id="title102">PART U$6</title>
+           id="title148">PART U$6</title>
         <rect
-           id="rect104"
+           id="rect150"
+           transform="translate(27.686,-10.414)"
+           height="1.8796"
+           width="1.8796"
+           y="-0.93980002"
+           x="-0.93980002"
+           class="l16"
+           style="fill:#000000" />
+        <rect
+           id="rect152"
            transform="translate(27.686,-10.414)"
            height="1.8796"
            width="1.8796"
            y="-0.93980002"
            x="-0.93980002"
            class="l17"
-           style="fill:#3ddc97" />
+           style="fill:#000000" />
         <circle
-           id="circle106"
+           id="circle154"
            r="0.50800002"
            cy="-10.414"
            cx="27.686001"
            class="j0"
            style="fill:#afd134" />
         <polygon
-           id="polygon108"
+           id="polygon156"
+           transform="translate(27.686,-7.874)"
+           points="0.389278,0.9398 -0.389278,0.9398 -0.9398,0.389278 -0.9398,-0.389278 -0.389278,-0.9398 0.389278,-0.9398 0.9398,-0.389278 0.9398,0.389278 "
+           class="l16"
+           style="fill:#000000" />
+        <polygon
+           id="polygon158"
            transform="translate(27.686,-7.874)"
            points="0.389278,0.9398 -0.389278,0.9398 -0.9398,0.389278 -0.9398,-0.389278 -0.389278,-0.9398 0.389278,-0.9398 0.9398,-0.389278 0.9398,0.389278 "
            class="l17"
-           style="fill:#3ddc97" />
+           style="fill:#000000" />
         <circle
-           id="circle110"
+           id="circle160"
            r="0.50800002"
            cy="-7.8740001"
            cx="27.686001"
            class="j0"
            style="fill:#afd134" />
         <circle
-           id="circle112"
+           id="circle162"
+           r="0.93980002"
+           cy="-5.3340001"
+           cx="27.686001"
+           class="j16"
+           style="fill:#000000" />
+        <circle
+           id="circle164"
            r="0.93980002"
            cy="-5.3340001"
            cx="27.686001"
            class="j17"
-           style="fill:#3ddc97" />
+           style="fill:#000000" />
         <circle
-           id="circle114"
+           id="circle166"
            r="0.50800002"
            cy="-5.3340001"
            cx="27.686001"
@@ -330,32 +563,46 @@ circle.j0 {fill:#afd134; }
            style="fill:#afd134" />
       </g>
       <g
-         id="g128">
+         id="g184">
         <title
-           id="title118">PART U$7</title>
+           id="title170">PART U$7</title>
         <circle
-           id="circle120"
+           id="circle172"
+           r="1.15"
+           cy="-24.263901"
+           cx="27.686001"
+           class="j16"
+           style="fill:#000000" />
+        <circle
+           id="circle174"
            r="1.15"
            cy="-24.263901"
            cx="27.686001"
            class="j17"
-           style="fill:#3ddc97" />
+           style="fill:#000000" />
         <circle
-           id="circle122"
+           id="circle176"
            r="0.64999998"
            cy="-24.263901"
            cx="27.686001"
            class="j0"
            style="fill:#afd134" />
         <circle
-           id="circle124"
+           id="circle178"
+           r="1.15"
+           cy="-17.736099"
+           cx="27.686001"
+           class="j16"
+           style="fill:#000000" />
+        <circle
+           id="circle180"
            r="1.15"
            cy="-17.736099"
            cx="27.686001"
            class="j17"
-           style="fill:#3ddc97" />
+           style="fill:#000000" />
         <circle
-           id="circle126"
+           id="circle182"
            r="0.64999998"
            cy="-17.736099"
            cx="27.686001"
@@ -363,48 +610,71 @@ circle.j0 {fill:#afd134; }
            style="fill:#afd134" />
       </g>
       <g
-         id="g144">
+         id="g206">
         <title
-           id="title130">PART U3</title>
+           id="title186">PART U3</title>
         <rect
-           id="rect132"
+           id="rect188"
+           transform="rotate(-90,-6.1105,-12.3395)"
+           height="1.91"
+           width="1.91"
+           y="-0.95499998"
+           x="-0.95499998"
+           class="l16"
+           style="fill:#000000" />
+        <rect
+           id="rect190"
            transform="rotate(-90,-6.1105,-12.3395)"
            height="1.91"
            width="1.91"
            y="-0.95499998"
            x="-0.95499998"
            class="l17"
-           style="fill:#3ddc97" />
+           style="fill:#000000" />
         <circle
-           id="circle134"
+           id="circle192"
            r="0.63499999"
            cy="-18.450001"
            cx="6.2290001"
            class="j0"
            style="fill:#afd134" />
         <circle
-           id="circle136"
+           id="circle194"
+           r="0.95499998"
+           cy="-21"
+           cx="6.2290001"
+           class="j16"
+           style="fill:#000000" />
+        <circle
+           id="circle196"
            r="0.95499998"
            cy="-21"
            cx="6.2290001"
            class="j17"
-           style="fill:#3ddc97" />
+           style="fill:#000000" />
         <circle
-           id="circle138"
+           id="circle198"
            r="0.63499999"
            cy="-21"
            cx="6.2290001"
            class="j0"
            style="fill:#afd134" />
         <circle
-           id="circle140"
+           id="circle200"
+           r="0.95499998"
+           cy="-23.549999"
+           cx="6.2290001"
+           class="j16"
+           style="fill:#000000" />
+        <circle
+           id="circle202"
            r="0.95499998"
            cy="-23.549999"
            cx="6.2290001"
            class="j17"
-           style="fill:#3ddc97" />
+           style="fill:#000000" />
         <circle
-           id="circle142"
+           id="circle204"
            r="0.63499999"
            cy="-23.549999"
            cx="6.2290001"
@@ -412,9 +682,59 @@ circle.j0 {fill:#afd134; }
            style="fill:#afd134" />
       </g>
       <g
-         id="g148">
+         id="g220">
         <title
-           id="title146">PART U5</title>
+           id="title208">PART U5</title>
+        <rect
+           id="rect210"
+           transform="rotate(-90,4.7625,-12.5603)"
+           rx="0.050799999"
+           height="0.50800002"
+           width="1.2192"
+           y="-0.25400001"
+           x="-0.60960001"
+           class="l16"
+           style="fill:#000000" />
+        <rect
+           id="rect212"
+           transform="rotate(-90,4.2926,-12.0904)"
+           rx="0.050799999"
+           height="0.50800002"
+           width="1.2192"
+           y="-0.25400001"
+           x="-0.60960001"
+           class="l16"
+           style="fill:#000000" />
+        <rect
+           id="rect214"
+           transform="rotate(-90,3.8227,-11.6205)"
+           rx="0.050799999"
+           height="0.50800002"
+           width="1.2192"
+           y="-0.25400001"
+           x="-0.60960001"
+           class="l16"
+           style="fill:#000000" />
+        <rect
+           id="rect216"
+           transform="rotate(-90,2.6035,-12.8397)"
+           rx="0.050799999"
+           height="0.50800002"
+           width="1.2192"
+           y="-0.25400001"
+           x="-0.60960001"
+           class="l16"
+           style="fill:#000000" />
+        <rect
+           id="rect218"
+           transform="rotate(-90,3.5433,-13.7795)"
+           rx="0.050799999"
+           height="0.50800002"
+           width="1.2192"
+           y="-0.25400001"
+           x="-0.60960001"
+           class="l16"
+           style="fill:#000000" />
       </g>
     </g>
   </g>
