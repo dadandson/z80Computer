@@ -54,25 +54,13 @@ extern "C" {
 void Error_Handler(void);
 
 /* USER CODE BEGIN EFP */
-struct Z80Info {
-	uint16_t Address;
-	int8_t Data;
-	uint16_t BUSRQ:1;
-	uint16_t NMI:1;
-	uint16_t M1:1;
-	uint16_t MREQ:1;
-	uint16_t IORQ:1;
-	uint16_t RD:1;
-	uint16_t WR:1;
-	uint16_t INT:1;
-	uint16_t WAIT:1;
-};
+
 
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define B1_Pin GPIO_PIN_13
-#define B1_GPIO_Port GPIOC
+#define DATA3_Pin GPIO_PIN_13
+#define DATA3_GPIO_Port GPIOC
 #define Z80CLK_INT_Pin GPIO_PIN_0
 #define Z80CLK_INT_GPIO_Port GPIOC
 #define Z80CLK_INT_EXTI_IRQn EXTI0_IRQn

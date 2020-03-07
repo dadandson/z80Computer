@@ -1,0 +1,3 @@
+[submodule "stm32-hardware-debugger-f302/libs/libstm32"]
+	path = stm32-hardware-debugger-f302/libs/libstm32
+	url = https://github.com/cmdc0de/libstm32.git

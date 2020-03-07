@@ -23,7 +23,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "my_main.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -50,21 +50,7 @@ SPI_HandleTypeDef hspi3;
 UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
-struct Z80Info {
-	uint16_t Address;
-	int8_t Data;
-	uint16_t BUSRQ:1;
-	uint16_t NMI:1;
-	uint16_t M1:1;
-	uint16_t MREQ:1;
-	uint16_t IORQ:1;
-	uint16_t RD:1;
-	uint16_t WR:1;
-	uint16_t INT:1;
-	uint16_t WAIT:1;
-};
-#define MAX_QUEUE 5;
-static Z80Info Z80Data[MAX_QUEUE];
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -80,12 +66,6 @@ static void MX_USART2_UART_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
-void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
-  /* Prevent unused argument(s) compilation warning */
-  UNUSED(GPIO_Pin);
-
- }
 
 /* USER CODE END 0 */
 
@@ -122,7 +102,7 @@ int main(void)
   MX_SPI3_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
-
+  initApp();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -130,7 +110,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
+	  run();
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
@@ -338,27 +318,21 @@ static void MX_GPIO_Init(void)
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_RESET);
 
-  /*Configure GPIO pin : B1_Pin */
-  GPIO_InitStruct.Pin = B1_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_IT_FALLING;
+  /*Configure GPIO pins : DATA3_Pin DATA4_Pin DATA5_Pin DATA6_Pin 
+                           DATA7_Pin M1_Pin MREQ_Pin IORQ_Pin 
+                           RD_Pin WR_Pin */
+  GPIO_InitStruct.Pin = DATA3_Pin|DATA4_Pin|DATA5_Pin|DATA6_Pin 
+                          |DATA7_Pin|M1_Pin|MREQ_Pin|IORQ_Pin 
+                          |RD_Pin|WR_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(B1_GPIO_Port, &GPIO_InitStruct);
+  HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
   /*Configure GPIO pin : Z80CLK_INT_Pin */
   GPIO_InitStruct.Pin = Z80CLK_INT_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(Z80CLK_INT_GPIO_Port, &GPIO_InitStruct);
-
-  /*Configure GPIO pins : DATA4_Pin DATA5_Pin DATA6_Pin DATA7_Pin 
-                           M1_Pin MREQ_Pin IORQ_Pin RD_Pin 
-                           WR_Pin */
-  GPIO_InitStruct.Pin = DATA4_Pin|DATA5_Pin|DATA6_Pin|DATA7_Pin 
-                          |M1_Pin|MREQ_Pin|IORQ_Pin|RD_Pin 
-                          |WR_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
   /*Configure GPIO pins : ADDR0_Pin ADDR1_Pin ADDR2_Pin ADDR3_Pin 
                            ADDR4_Pin ADDR5_Pin ADDR6_Pin ADDR7_Pin 
