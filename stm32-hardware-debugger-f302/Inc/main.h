@@ -102,8 +102,8 @@ void Error_Handler(void);
 #define ADDR15_GPIO_Port GPIOB
 #define DATA0_Pin GPIO_PIN_12
 #define DATA0_GPIO_Port GPIOB
-#define LD2_Pin GPIO_PIN_13
-#define LD2_GPIO_Port GPIOB
+#define GREEN_LED_Pin GPIO_PIN_13
+#define GREEN_LED_GPIO_Port GPIOB
 #define DATA1_Pin GPIO_PIN_14
 #define DATA1_GPIO_Port GPIOB
 #define DATA2_Pin GPIO_PIN_15

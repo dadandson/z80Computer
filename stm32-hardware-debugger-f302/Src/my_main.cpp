@@ -9,9 +9,13 @@
 #include "main.h"
 #include <libstm32/app/app.h>
 #include <libstm32/etl/src/queue.h>
+#include <libstm32/utility/template-utils.h>
+#include <stm32f3xx_hal_uart.h>
+#include <string.h>
 
 using cmdc0de::ErrorType;
 using cmdc0de::StateBase;
+extern UART_HandleTypeDef huart2;
 
 struct Z80Info {
 	uint16_t Address;
@@ -27,6 +31,7 @@ struct Z80Info {
 			uint16_t WR:1;
 			uint16_t INT:1;
 			uint16_t WAIT:1;
+			uint16_t BUSAK:1;
 		} FLAGS;
 		uint16_t flags;
 	};
@@ -46,9 +51,10 @@ public:
 	void gatherData();
 private:
 	etl::queue<Z80Info,5> InfoQueue;
+	uint16_t ClockCounter;
 };
 
-MyApp::MyApp() : cmdc0de::App(), InfoQueue() {}
+MyApp::MyApp() : cmdc0de::App(), InfoQueue(), ClockCounter(0) {}
 
 ErrorType MyApp::onRun() {
 	outputData();
@@ -56,6 +62,7 @@ ErrorType MyApp::onRun() {
 }
 
 void MyApp::gatherData() {
+	++ClockCounter;
 	Z80Info info;
 	info.Address =  HAL_GPIO_ReadPin(ADDR15_GPIO_Port,ADDR15_Pin)==GPIO_PIN_SET?1<<15:0;
 	info.Address |= HAL_GPIO_ReadPin(ADDR14_GPIO_Port,ADDR14_Pin)==GPIO_PIN_SET?1<<14:0;
@@ -89,11 +96,27 @@ void MyApp::gatherData() {
 	info.FLAGS.RD = HAL_GPIO_ReadPin(RD_GPIO_Port,RD_Pin)==GPIO_PIN_SET;
 	info.FLAGS.WR = HAL_GPIO_ReadPin(WR_GPIO_Port,WR_Pin)==GPIO_PIN_SET;
 	info.FLAGS.WAIT = HAL_GPIO_ReadPin(WAIT_GPIO_Port,WAIT_Pin)==GPIO_PIN_SET;
+	info.FLAGS.BUSAK = HAL_GPIO_ReadPin(BUSAK_GPIO_Port, BUSAK_Pin)==GPIO_PIN_SET;
 	InfoQueue.push(info);
 }
 
-void MyApp::outputData() {
+static const char *fmt = "%5d  | %08X (%s) %04X (%s) %2i%2i%2i%2i%2i%2i%2i%2i%2i%2i";
+static const char *hdr = "CLK  | ADDRESS (b)    |DATA (b)     BR|BA|IN|M1|MQ|NI|RD|WR|WA|IOQ";
 
+
+void MyApp::outputData() {
+	if(!InfoQueue.empty()) {
+		char buffer[128];
+		char addrBuf[17], dataBuf[9];
+		Z80Info zInfo;
+		InfoQueue.pop_into(zInfo);
+		if(ClockCounter%20==1) {
+			HAL_UART_Transmit(&huart2,(uint8_t*)(hdr),strlen(hdr),1000);
+		}
+		sprintf(&buffer[0],fmt,ClockCounter,zInfo.Address,cmdc0de::makeBinary(zInfo.Address,addrBuf),zInfo.Data,cmdc0de::makeBinary(zInfo.Data,dataBuf),
+				zInfo.FLAGS.BUSRQ,zInfo.FLAGS.BUSAK,zInfo.FLAGS.INT,zInfo.FLAGS.M1,zInfo.FLAGS.MREQ,zInfo.FLAGS.NMI,zInfo.FLAGS.RD,zInfo.FLAGS.WR,zInfo.FLAGS.WAIT,zInfo.FLAGS.IORQ);
+		printf(&buffer[0]);
+	}
 }
 
 static MyApp TheApp;
