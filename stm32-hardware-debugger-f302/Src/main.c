@@ -110,7 +110,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-	  run();
+
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
@@ -346,10 +346,10 @@ static void MX_GPIO_Init(void)
 
   /*Configure GPIO pins : ADDR11_Pin ADDR12_Pin ADDR13_Pin ADDR14_Pin 
                            ADDR15_Pin DATA0_Pin DATA1_Pin DATA2_Pin 
-                           BUSRQ_Pin NMI_Pin WAIT_Pin DATA0B9_Pin */
+                           BUSRQ_Pin NMI_Pin WAIT_Pin */
   GPIO_InitStruct.Pin = ADDR11_Pin|ADDR12_Pin|ADDR13_Pin|ADDR14_Pin 
                           |ADDR15_Pin|DATA0_Pin|DATA1_Pin|DATA2_Pin 
-                          |BUSRQ_Pin|NMI_Pin|WAIT_Pin|DATA0B9_Pin;
+                          |BUSRQ_Pin|NMI_Pin|WAIT_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);

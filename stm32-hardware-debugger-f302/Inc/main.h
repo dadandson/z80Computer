@@ -142,8 +142,6 @@ void Error_Handler(void);
 #define NMI_GPIO_Port GPIOB
 #define WAIT_Pin GPIO_PIN_8
 #define WAIT_GPIO_Port GPIOB
-#define DATA0B9_Pin GPIO_PIN_9
-#define DATA0B9_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
